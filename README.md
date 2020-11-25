@@ -49,6 +49,16 @@ We will be using Postgres since our collective data is all similar and we are no
 5. Create a comprehensive ReadMe File
 6. Create sample queries
 
+#### Team Roles
+
+| Team Member           | Role                          | Github username |        
+| -----------           | -----------                   | -----------
+| Veena Uppalapati      | Panera transformer            | veenauppalapati |
+| Josh Acampado         | Scraping from a dying company | josh-acampado   |
+| Sherin Mattappallil   | Subway Scraper                | sherinmatt      |
+| Jennifer Dean         | Jimmy Johns Jockey            | Jen-Dean        |
+| Shamikasule           | Blimpie Best                  | shamikasule     |
+
 ## General info
 How do Sandwhiches Shop items and nutritional information relate to one another?
 
