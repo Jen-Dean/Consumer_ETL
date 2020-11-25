@@ -60,7 +60,6 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 * Splinter
 * Pandas
 * Python
-* 
 
 ## Setup
 *coming soon*
