@@ -28,6 +28,7 @@
 #### Why is our final database useful to a hypothetical organization?
 * To create a repository for people interested in nutrition and making positive food choices
 * For a potential sandwich shop to get competitor data to create a better shop.
+* We will also list out how much exercise it takes to burn the sandwiches off
 
 #### A list of data sources :
 *  [Food Nutrition.org](https://fastfoodnutrition.org/)
@@ -36,6 +37,7 @@
 *  [Jimmy Johns](https://resources.jimmyjohns.com/downloadable-files/NutritionGuide.pdf)
 *  [Panera](https://www-beta.panerabread.com/content/dam/panerabread/integrated-web-content/documents/Panera-Nutrition.pdf)
 *  [Quiznos](https://www.quiznos.com/assets/images/NutritionalInfo.pdf)
+*  [Choose My Plate](https://www.choosemyplate.gov/resources/physical-activity-calories-burn)
 
 #### Brief summary of the 3 ETL steps we will take to create this database:
 
