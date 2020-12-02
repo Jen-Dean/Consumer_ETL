@@ -1,84 +1,80 @@
-"Black Angus Steakhouse - with provolone, cheddar, sautéed mushrooms & onions, grille sauce on rosemary parmesan bread",,,,,,,,,,,
-"4"" Sub",390,120,13,6,0,50,1010,44,2,9,23
-"8"" Sub",780,240,27,13,0,100,2010,88,4,19,47
-"12"" Sub",1170,360,40,19,0.5,150,3060,134,6,30,70
-Sammie,390,140,15,6,0,50,1000,39,4,10,23
-Half Salad,310,110,12,6,0,50,980,31,3,24,19
-Full Salad,510,220,24,11,0,100,1510,37,5,26,37
-"Peppercorn Steak - with provolone, sautéed onions, peppercorn sauce",,,,,,,,,,,
-"4"" Sub",420,190,21,5,0,50,920,38,2,3,20
-"8"" Sub",840,380,42,11,1,95,1830,76,4,6,40
-"12"" Sub",1290,590,66,16,1,145,2780,114,6,10,60
-Sammie,440,230,26,6,0,50,910,32,4,3,19
-Half Salad,540,430,48,9,1,75,890,10,3,4,16
-Full Salad,680,500,55,12,1,110,1320,16,5,6,30
-"French Dip - with sautéed onions, swiss, horseradish sauce, side of au jus",,,,,,,,,,,
-"4"" Sub",400,150,16,4.5,0,50,1670,40,2,5,22
-"8"" Sub",760,270,30,9,0,95,2510,79,4,10,42
-"12"" Sub",1140,410,45,14,0.5,145,3370,119,6,16,62
-Sammie,400,170,19,5,0,50,1650,34,4,5,21
-Half Salad,390,250,28,6,0,70,1580,17,3,11,18
-Full Salad,530,310,34,9,0.5,110,1970,22,5,12,33
-"Chipotle Steak & Cheddar - with sautéed peppers & onions, chipotle mayo",,,,,,,,,,,
-"4"" Sub",420,200,22,6,0,50,990,36,2,3,20
-"8"" Sub",840,400,44,13,0,100,1960,73,4,6,39
-"12"" Sub",1290,610,68,19,0.5,150,2990,110,6,8,59
-Sammie,440,240,26,7,0,50,980,30,4,2,19
-Half Salad,510,420,47,10,0.5,70,1040,7,2,3,15
-"Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",,,,,,,,,,,
-"4"" Sub",400,150,17,6,0,60,1110,37,2,4,27
-"8"" Sub",800,300,33,12,0,125,2230,73,4,7,53
-"12"" Sub",1210,460,51,18,0,185,3370,109,6,10,79
-Sammie,410,180,20,6,0,65,1110,30,4,3,26
-Half Salad,380,260,29,8,0,75,1130,7,2,3,22
-Full Salad,560,340,38,12,0,130,1740,11,4,5,43
-"Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",,,,,,,,,,,
-"4"" Sub",400,140,16,6,0,60,1190,38,1,5,26
-"8"" Sub",800,290,32,12,0,120,2370,76,3,11,52
-"12"" Sub",1220,450,49,18,0,180,3610,114,4,17,78
-Sammie,410,170,19,6,0,60,1190,32,3,6,25
-Half Salad,540,420,47,10,0.5,80,1300,8,2,5,21
-Full Salad,730,500,56,14,0.5,140,2030,15,3,9,42
-"Carbonara - with bacon, provolone, sautéed mushrooms, parmesan alfredo sauce",,,,,,,,,,,
-"4"" Sub",440,190,21,6,0,55,1110,36,2,3,27
-"8"" Sub",890,380,42,12,0.5,115,2220,73,3,7,54
-"12"" Sub",1350,580,65,18,1,175,3360,110,5,10,82
-Sammie,460,220,25,6,0,60,1100,30,3,3,26
-Half Salad,510,370,42,9,1,75,1130,11,2,5,24
-Full Salad,700,460,51,13,1,125,1740,15,4,7,46
-"Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",,,,,,,,,,,
-"4"" Sub",430,160,18,6,0,60,1000,40,2,6,27
-"8"" Sub",850,320,36,11,0.5,120,1990,80,4,12,53
-"12"" Sub",1300,490,55,17,1,180,3010,120,6,19,80
-Sammie,440,190,21,6,0,60,980,34,4,7,26
-Half Salad,470,310,35,8,0.5,75,880,17,2,12,22
-Full Salad,650,390,43,12,0.5,130,1440,22,4,14,43
-"Southwest Chicken - with cheddar, guacamole, chipotle mayo",,,,,,,,,,,
-"4"" Sub",430,200,22,6,0,55,1000,36,3,3,22
-"8"" Sub",860,400,45,12,0,105,2000,73,5,5,43
-"12"" Sub",1310,630,70,19,0.5,160,3040,109,8,8,65
-Sammie,440,240,27,7,0,55,1000,30,4,2,21
-Half Salad,520,420,47,10,0.5,70,1060,7,3,3,17
-Full Salad,680,510,57,13,0.5,115,1540,13,6,4,34
-"Apple Harvest - with chicken, apples, pumpkin seeds, craisins, tomatoes, honey mustard",,,,,,,,,,,
-"4"" Sub",400,140,16,3,0,25,690,49,3,14,16
-"8"" Sub",790,290,32,6,0,50,1380,97,7,28,32
-"12"" Sub",1210,450,50,10,0.5,80,2100,147,10,42,47
-Sammie,410,180,20,3.5,0,25,670,43,5,14,15
-"Italian Meatball - with meatballs and marinara, double portion of provolone",,,,,,,,,,,
-"4"" Sub",460,190,21,8,0,50,1010,44,4,6,26
-"8"" Sub",930,380,43,16,0.5,100,2020,88,8,12,53
-"12"" Sub",1390,570,64,24,1,150,3030,132,11,18,79
-Sammie,460,210,23,8,0,50,970,38,6,5,25
-Half Salad,330,190,21,7,0,50,720,17,4,7,22
-Full Salad,620,360,40,15,0.5,100,1350,28,8,10,43
-"Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",,,,,,,,,,,
-"4"" Sub",300,100,11,5,0,35,850,40,2,3,12
-"8"" Sub",610,200,22,10,0.5,70,1690,80,5,6,24
-"12"" Sub",910,300,33,15,1,100,2540,120,7,10,35
-Sammie,300,120,13,5,0,35,810,34,4,3,11
-Half Salad,300,220,24,4,0,40,980,12,3,4,8
-Bread,,,,,,,,,,,
-"Artisan White 4""",170,15,1.5,0.5,0,0,340,33,1,2,6
-"Artisan Wheat 4""",150,15,1.5,0,0,0,260,29,3,3,6
-"Rosemary Parmesan 4""",140,20,2.5,1,0,5,270,25,1,2,5
+,Name of Sandwich,Calories (kcal),Fat Calories (kcal),Fat (g),Saturated Fat (g),Total Trans Fat (g),Cholesterol (mg),Sodium (mg),Carbs (g),Dietary Fiber (g),Sugars (g),Protein (g)
+"4"" Sub","Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",390,120,13,6,0,50,1010,44,2,9,23
+"8"" Sub","Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",780,240,27,13,0,100,2010,88,4,19,47
+"12"" Sub","Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",1170,360,40,19,0.5,150,3060,134,6,30,70
+Sammie,"Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",390,140,15,6,0,50,1000,39,4,10,23
+Half Salad,"Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",310,110,12,6,0,50,980,31,3,24,19
+Full Salad,"Black Angus Steakhouse - with provolone, cheddar, sauteed mushrooms & onions, grille sauce on rosemary parmesan bread",510,220,24,11,0,100,1510,37,5,26,37
+,,,,,,,,,,,,
+"4"" Sub","Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",420,190,21,5,0,50,920,38,2,3,20
+"8"" Sub","Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",840,380,42,11,1,95,1830,76,4,6,40
+"12"" Sub","Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",1290,590,66,16,1,145,2780,114,6,10,60
+Sammie,"Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",440,230,26,6,0,50,910,32,4,3,19
+Half Salad,"Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",540,430,48,9,1,75,890,10,3,4,16
+Full Salad,"Peppercorn Steak - with provolone, sauteed onions, peppercorn sauce",680,500,55,12,1,110,1320,16,5,6,30
+,,,,,,,,,,,,
+"4"" Sub","French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",400,150,16,4.5,0,50,1670,40,2,5,22
+"8"" Sub","French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",760,270,30,9,0,95,2510,79,4,10,42
+"12"" Sub","French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",1140,410,45,14,0.5,145,3370,119,6,16,62
+Sammie,"French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",400,170,19,5,0,50,1650,34,4,5,21
+Half Salad,"French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",390,250,28,6,0,70,1580,17,3,11,18
+Full Salad,"French Dip - with sauteed onions, swiss, horseradish sauce, side of au jus",530,310,34,9,0.5,110,1970,22,5,12,33
+,,,,,,,,,,,,
+"4"" Sub","Chipotle Steak & Cheddar - with sauteed peppers & onions, chipotle mayo",420,200,22,6,0,50,990,36,2,3,20
+"8"" Sub","Chipotle Steak & Cheddar - with sauteed peppers & onions, chipotle mayo",840,400,44,13,0,100,1960,73,4,6,39
+"12"" Sub","Chipotle Steak & Cheddar - with sauteed peppers & onions, chipotle mayo",1290,610,68,19,0.5,150,2990,110,6,8,59
+Sammie,"Chipotle Steak & Cheddar - with sauteed peppers & onions, chipotle mayo",440,240,26,7,0,50,980,30,4,2,19
+Half Salad,"Chipotle Steak & Cheddar - with sauteed peppers & onions, chipotle mayo",510,420,47,10,0.5,70,1040,7,2,3,15
+,,,,,,,,,,,,
+"4"" Sub","Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",400,150,17,6,0,60,1110,37,2,4,27
+"8"" Sub","Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",800,300,33,12,0,125,2230,73,4,7,53
+"12"" Sub","Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",1210,460,51,18,0,185,3370,109,6,10,79
+Sammie,"Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",410,180,20,6,0,65,1110,30,4,3,26
+Half Salad,"Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",380,260,29,8,0,75,1130,7,2,3,22
+Full Salad,"Mesquite - with bacon, cheddar, lettuce, tomatoes, onions, ranch",560,340,38,12,0,130,1740,11,4,5,43
+,,,,,,,,,,,,
+"4"" Sub","Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",400,140,16,6,0,60,1190,38,1,5,26
+"8"" Sub","Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",800,290,32,12,0,120,2370,76,3,11,52
+"12"" Sub","Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",1220,450,49,18,0,180,3610,114,4,17,78
+Sammie,"Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",410,170,19,6,0,60,1190,32,3,6,25
+Half Salad,"Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",540,420,47,10,0.5,80,1300,8,2,5,21
+Full Salad,"Baja - with bacon, cheddar, onions, BBQ sauce, chipotle mayo",730,500,56,14,0.5,140,2030,15,3,9,42
+,,,,,,,,,,,,
+"4"" Sub","Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",440,190,21,6,0,55,1110,36,2,3,27
+"8"" Sub","Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",890,380,42,12,0.5,115,2220,73,3,7,54
+"12"" Sub","Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",1350,580,65,18,1,175,3360,110,5,10,82
+Sammie,"Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",460,220,25,6,0,60,1100,30,3,3,26
+Half Salad,"Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",510,370,42,9,1,75,1130,11,2,5,24
+Full Salad,"Carbonara - with bacon, provolone, sauteed mushrooms, parmesan alfredo sauce",700,460,51,13,1,125,1740,15,4,7,46
+,,,,,,,,,,,,
+"4"" Sub","Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",430,160,18,6,0,60,1000,40,2,6,27
+"8"" Sub","Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",850,320,36,11,0.5,120,1990,80,4,12,53
+"12"" Sub","Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",1300,490,55,17,1,180,3010,120,6,19,80
+Sammie,"Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",440,190,21,6,0,60,980,34,4,7,26
+Half Salad,"Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",470,310,35,8,0.5,75,880,17,2,12,22
+Full Salad,"Honey Mustard - with bacon, swiss, lettuce, tomatoes, onions",650,390,43,12,0.5,130,1440,22,4,14,43
+,,,,,,,,,,,,
+"4"" Sub","Southwest Chicken - with cheddar, guacamole, chipotle mayo",430,200,22,6,0,55,1000,36,3,3,22
+"8"" Sub","Southwest Chicken - with cheddar, guacamole, chipotle mayo",860,400,45,12,0,105,2000,73,5,5,43
+"12"" Sub","Southwest Chicken - with cheddar, guacamole, chipotle mayo",1310,630,70,19,0.5,160,3040,109,8,8,65
+Sammie,"Southwest Chicken - with cheddar, guacamole, chipotle mayo",440,240,27,7,0,55,1000,30,4,2,21
+Half Salad,"Southwest Chicken - with cheddar, guacamole, chipotle mayo",520,420,47,10,0.5,70,1060,7,3,3,17
+Full Salad,"Southwest Chicken - with cheddar, guacamole, chipotle mayo",680,510,57,13,0.5,115,1540,13,6,4,34
+,,,,,,,,,,,,
+"4"" Sub","Apple Harvest - with chicken, apples, pumpkin seeds, craisins, tomatoes, honey mustard",400,140,16,3,0,25,690,49,3,14,16
+"8"" Sub","Apple Harvest - with chicken, apples, pumpkin seeds, craisins, tomatoes, honey mustard",790,290,32,6,0,50,1380,97,7,28,32
+"12"" Sub","Apple Harvest - with chicken, apples, pumpkin seeds, craisins, tomatoes, honey mustard",1210,450,50,10,0.5,80,2100,147,10,42,47
+Sammie,"Apple Harvest - with chicken, apples, pumpkin seeds, craisins, tomatoes, honey mustard",410,180,20,3.5,0,25,670,43,5,14,15
+,,,,,,,,,,,,
+"4"" Sub","Italian Meatball - with meatballs and marinara, double portion of provolone",460,190,21,8,0,50,1010,44,4,6,26
+"8"" Sub","Italian Meatball - with meatballs and marinara, double portion of provolone",930,380,43,16,0.5,100,2020,88,8,12,53
+"12"" Sub","Italian Meatball - with meatballs and marinara, double portion of provolone",1390,570,64,24,1,150,3030,132,11,18,79
+Sammie,"Italian Meatball - with meatballs and marinara, double portion of provolone",460,210,23,8,0,50,970,38,6,5,25
+Half Salad,"Italian Meatball - with meatballs and marinara, double portion of provolone",330,190,21,7,0,50,720,17,4,7,22
+Full Salad,"Italian Meatball - with meatballs and marinara, double portion of provolone",620,360,40,15,0.5,100,1350,28,8,10,43
+,,,,,,,,,,,,
+"4"" Sub","Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",300,100,11,5,0,35,850,40,2,3,12
+"8"" Sub","Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",610,200,22,10,0.5,70,1690,80,5,6,24
+"12"" Sub","Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",910,300,33,15,1,100,2540,120,7,10,35
+Sammie,"Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",300,120,13,5,0,35,810,34,4,3,11
+Half Salad,"Lobster & Seafood Salad - with lobster & seafood salad, shredded lettuce",300,220,24,4,0,40,980,12,3,4,8
