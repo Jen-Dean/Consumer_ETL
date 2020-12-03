@@ -76,6 +76,24 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ## Setup
 *coming soon*
 
+## Extrapolations
+#### Jimmy Johns
+
+##### Average of Nutrition Values Across Bread Types
+
+Due to the nature of the Jimmy Johns website, there only existed ranges of each nutritional value field (calories, protein, fat etc) rather then exact amounts per bread type (French, Stone-Wheat, Unwich).
+
+To finish the datatables we took the averages of all the options as found in the Jimmy Johns PDF Nutrition file and applied the increases to the base "Unwich" stats - which are always the lowsest value.
+
+Below is the table for the values
+
+| Bread Type  | Total Fat  | Cholesterol  | Total Carbs | Dietary Fiber | Protein    |
+| ----------  | ---------- | -----------  | ----------  | ------------  | ---------  |
+| Unwich      | base Value | base Value   | base Value  | base Value    | base Value |
+| French      | +2         | +0           | +65         | +4            | +13        |
+| Stone-Wheat | +8         | +0           | +57         | +3            | +16        |
+  
+
 ## Code Examples
 *coming soon*
 
