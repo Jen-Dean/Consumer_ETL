@@ -1,0 +1,18 @@
+Extract
+
+Extracting the Data from PDF through Tabula into CSV
+-Using Tabula to pull the data for 21 sandwiches
+Creating a doc with sandwich description
+View CSVs in Excel to reformat data
+-Shifting rows to match the data
+-Shifting rows to delete blank rows
+Loading multiple csvs to merge in jupyter notebook
+-merged 3 CSV files into one Dataframe, ready for transforming
+
+
+Transform
+Clean up the Dataframe
+-Rename columns
+-Drop any rows containing 'Half Salad' or 'Full Salad'
+-Reset index
+-
