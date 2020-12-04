@@ -81,7 +81,7 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 
 ## Extrapolations & Notes
 
-## Customizations of Sandwhiches
+### Customizations of Sandwhiches
 - Every single sandwich chain offers a unlimited number of customizations for each sandwich.  For a cleaner database we decided to forgo customizations and stick with the main "as is" offerings.
 - We did note the differences in bread types, as well as sandwhich lengths
 
