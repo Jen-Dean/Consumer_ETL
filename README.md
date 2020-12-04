@@ -38,6 +38,7 @@
 *  [Panera](https://www-beta.panerabread.com/content/dam/panerabread/integrated-web-content/documents/Panera-Nutrition.pdf)
 *  [Quiznos](https://www.quiznos.com/assets/images/NutritionalInfo.pdf)
 *  [Choose My Plate](https://www.choosemyplate.gov/resources/physical-activity-calories-burn)
+*  [NutriStrategy](https://www.nutristrategy.com/caloriesburned.htm)
 
 #### Brief summary of the 3 ETL steps we will take to create this database:
 
@@ -70,13 +71,20 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ## Technologies
 * SQL
 * Splinter
+* Beautifulsoup
 * Pandas
 * Python
+* PostgresSQL
 
 ## Setup
 *coming soon*
 
-## Extrapolations
+## Extrapolations & Notes
+
+## Customizations of Sandwhiches
+- Every single sandwich chain offers a unlimited number of customizations for each sandwich.  For a cleaner database we decided to forgo customizations and stick with the main "as is" offerings.
+- We did note the differences in bread types, as well as sandwhich lengths
+
 ### Jimmy Johns
 #### Average of Nutrition Values Across Bread Types
 - Due to the nature of the Jimmy Johns website, there only existed ranges of each nutritional value field (calories, protein, fat etc) rather then exact amounts per bread type (French, Stone-Wheat, Unwich).
@@ -88,6 +96,10 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 | Unwich      | base Value | base Value   | base Value  | base Value    | base Value |
 | French      | +2         | +0           | +65         | +4            | +13        |
 | Stone-Wheat | +8         | +0           | +57         | +3            | +16        |
+
+### Exercise
+- [See our data here](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/exercise.csv) on all the exercises queried for our database.  This data is based on 1 hour of activity as well as 4 different weights.  The data is also of an "average" human male.
+- The amount of calories expended is influenced by many factors, including body weight, intensity of activity, conditioning level and metabolism.
   
 
 ## Code Examples
