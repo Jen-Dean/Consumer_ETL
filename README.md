@@ -101,6 +101,8 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ### Exercise
 - [See our data here](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/exercise.csv) on all the exercises queried for our database.  This data is based on 1 hour of activity as well as 4 different weights.  The data is also of an "average" human male.
 - The amount of calories expended is influenced by many factors, including body weight, intensity of activity, conditioning level and metabolism.
+##### Exercise Examples
+![Exercise Examples](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/Exercise_screenshot.png)
   
 
 ## Code Examples
