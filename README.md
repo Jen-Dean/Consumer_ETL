@@ -47,7 +47,7 @@ We will be using Postgres since our collective data is all similar and we are no
 #### ETL STEPS
 1. Scrape the data for sandwiches for the chosen joints from https://fastfoodnutrition.org/
 2. Collect all the required data
-3. Create a Quick DBD flow chart
+3. Create a [Quick DBD flow chart](https://github.com/Jen-Dean/for-now/blob/main/QuickDBD_Set_Up/QuickDBD_ScreenShot.png)
 4. Merge all the collected data into postgres sql database
 5. Create a comprehensive ReadMe File
 6. Create sample queries
@@ -76,8 +76,9 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 * Python
 * PostgresSQL
 
-## Setup
-*coming soon*
+## Database Organization
+##### Database Relationship
+![quickdbd](https://github.com/Jen-Dean/for-now/blob/main/QuickDBD_Set_Up/QuickDBD_ScreenShot.png)
 
 ## Extrapolations & Notes
 
