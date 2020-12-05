@@ -109,11 +109,12 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - Therefore, we just focused on extracting data from Panera, Quiznos, Subway and Jimmy Johns. 
 
 ### Subway 
-- During the extraction process, because of the large amounts of information, the focus was to extract specifically the Subway sandwich type: 6" data only, using Beautiful soup etc. The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
+- During the extraction process, because of the large amounts of information and time constraints, ended up focusing only on extracting the Subway sandwich length: 6" data only, using Beautiful soup etc. 
+- The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
 - During the transformation process, the dataframe was cleaned up. More columns were added to the dataframe. Then, the final table was exported to csv for the loading process.
 
 ### Panera
-- Firstly,
+- Extracted data Panera website and tranformed the data as
 
 ### Quiznos
 - Extracted data from the PDF through Tabula into CSV (Used tabula to pull the data from 21 sanwiches). Created a document with sandwich description. Viewed the CSV's in Excel to reformat the data. Later, rows were shifted to match data and delete blank rows. Lastly, loaded the multiple csvs to merge in Jupyter Notebook (merged 3 csv files into one dataframe).
