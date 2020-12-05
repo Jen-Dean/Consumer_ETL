@@ -148,8 +148,14 @@ WHERE restaurant_name = "Panera"
 
 #### Based on Nutrition Amounts:
 
-SELECT sandwich_name, restaurant_name, calories FROM sandwiches
-WHERE calories(cal) < 500
+```sql
+  SELECT sandwich_name, restaurant_name, calories 
+  FROM sandwiches 
+  WHERE calories(cal) < 500
+```
+
+
+- SELECT sandwich_name, restaurant_name, calories FROM sandwiches WHERE calories(cal) < 500
 
 SELECT sandwich_name, restaurant_name, calories, protein FROM sandwiches
 WHERE calories(cal) < 500 AND
@@ -162,14 +168,9 @@ WHERE total_carbohydrates(mg)
 
 #### Based on Calories Burned per Min:
 
-SELECT exercise_type, cal_per_min_130lbs FROM exercises
-WHERE cal_per_min_130lbs >= 10
+- SELECT exercise_type, cal_per_min_130lbs FROM exercises WHERE cal_per_min_130lbs >= 10
 
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
-WHERE cal_per_min_130lbs >= 10 AND
-WHERE cal_per_min_155lbs >= 10 AND
-WHERE cal_per_min_180lbs >= 10 AND
-WHERE cal_per_min_205lbs >= 10
+- SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises WHERE cal_per_min_130lbs >= 10 AND WHERE cal_per_min_155lbs >= 10 AND WHERE cal_per_min_180lbs >= 10 AND WHERE cal_per_min_205lbs >= 10
 
 #### Situationally Based:
 
