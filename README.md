@@ -106,7 +106,7 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
   
 
 ### Subway 
-- Because of the large amount of information, the focus was to extract specifically the Subway type: 6" data only. 
+- Constraints: Because of the large amount of information, the focus was to extract specifically the Subway sandwich type: 6" data only. 
 
 ## Code Examples
 *coming soon*
