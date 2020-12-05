@@ -16,3 +16,4 @@ Clean up the Dataframe
 -Drop any rows containing 'Half Salad' or 'Full Salad'
 -Reset index
 -Export final table as CSV to load with group
+-Need to combine all Restaurant csvs for final load
