@@ -114,7 +114,7 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - During the transformation process, the dataframe was cleaned up. More columns were added to the dataframe. Then, the final table was exported to csv for the loading process.
 
 ### Panera
-- Extracted data Panera website and tranformed the data as
+- Extracted data Panera website and tranformed the data as necessary.
 
 ### Quiznos
 - Extracted data from the PDF through Tabula into CSV (Used tabula to pull the data from 21 sanwiches). Created a document with sandwich description. Viewed the CSV's in Excel to reformat the data. Later, rows were shifted to match data and delete blank rows. Lastly, loaded the multiple csvs to merge in Jupyter Notebook (merged 3 csv files into one dataframe).
