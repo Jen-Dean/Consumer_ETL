@@ -160,26 +160,27 @@ Here are some example queries you can run when looking for a specific sandwich n
 #### Based on Nutrition Amounts:
 
 ```sql
-  SELECT sandwich_name, restaurant_name, calories 
+  SELECT sandwich_name, restaurant_name, calories_cal_
   FROM sandwiches 
-  WHERE calories(cal) < 500
+  WHERE calories_cal_ < 500
 ```
 ```sql
-  SELECT sandwich_name, restaurant_name, calories 
-  FROM sandwiches WHERE calories(cal) < 500
-```
-```sql
-  SELECT sandwich_name, restaurant_name, calories, protein 
+  SELECT sandwich_name, restaurant_name, calories_cal_
   FROM sandwiches
-  WHERE calories(cal) < 500 AND
-  WHERE protein(grams) > 10
+  WHERE calories_cal_ < 500
 ```
 ```sql
-  SELECT sandwich_name, restaurant_name, calories, protein 
+  SELECT sandwich_name, restaurant_name, calories_cal_, protein_grams_
   FROM sandwiches
-  WHERE calories(cal) < 500 AND
-  WHERE protein(grams) > 10 AND
-  WHERE total_carbohydrates(mg)
+  WHERE calories_cal_ < 500
+  AND protein_grams_ > 10
+```
+```sql
+  SELECT sandwich_name, restaurant_name, calories_cal_, protein_grams_
+  FROM sandwiches
+  WHERE calories_cal_ < 500
+  AND protein_grams_ > 10
+  AND total_carbohydrates_mg_
 ```
 #### Based on Calories Burned per Min:
 
@@ -192,9 +193,9 @@ WHERE cal_per_min_130lbs >= 10
 SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs
 FROM exercises
 WHERE cal_per_min_130lbs >= 10
-AND WHERE cal_per_min_155lbs >= 10
-AND WHERE cal_per_min_180lbs >= 10
-AND WHERE cal_per_min_205lbs >= 10
+AND cal_per_min_155lbs >= 10
+AND cal_per_min_180lbs >= 10
+AND cal_per_min_205lbs >= 10
 ```
 #### Situationally Based:
 
