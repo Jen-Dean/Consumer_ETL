@@ -1,31 +1,31 @@
 restaurant_name,sandwich_name,bread_type,sandwich_length,sandwich_description,calories,calories_from_fat,total_fat,saturated_fat,trans_fat,protein,cholesterol,sodium,total_carbohydrates,dietary_fiber,sugars
-Panera,Panera Whole Chipotle Bacon Melt ,,Whole,,900,470,52,27,1,42,150,1960,67,2,11
-Panera,Panera Half Chipotle Bacon Melt ,,Half,,450,230,26,14,.5,21,75,980,34,1,5
-Panera,Panera Whole Chipotle Chicken Avocado Melt ,,Whole,,850,370,41,14,0,41,110,2080,80,8,5
-Panera,Panera Half Chipotle Chicken Avocado Melt ,,Half,,430,190,21,7,0,21,55,1040,40,4,2
-Panera,Panera Whole Chipotle Chicken Avocado Melt ,,Whole,,850,370,41,14,0,41,110,2080,80,8,5
-Panera,Panera Half Chipotle Chicken Avocado Melt ,,Half,,430,190,21,7,0,21,55,1040,40,4,2
-Panera,Panera Whole Classic Grilled Cheese ,,Whole,,700,320,35,22,1,31,110,1730,67,2,10
-Panera,Panera Half Classic Grilled Cheese ,,Half,,350,160,18,11,.5,16,55,870,33,1,5
-Panera,Panera Whole Frontega Chicken Panini ,,Whole,,730,260,29,9.0,0,39,80,2110,79,5,5
-Panera,Panera Half Frontega Chicken Panini ,,Half,,360,130,14,4.5,0.0,19,40,1050,39,2,3
-Panera,Panera Full Bacon Turkey Bravo Sandwich ,,Whole,,640,190,21,9,0.0,45,95,1680,68,3,7
-Panera,Panera Full Napa Almond Chicken Salad Sandwich ,,Whole,,630,290,32,5,0,28,70,750,62,5,12
-Panera,Panera Full Roasted Turkey & Avocado BLT ,,Whole,,690,320,35,7,0.0,43,80,1310,53,7,4
-Panera,Panera Half Bacon Turkey Bravo Sandwich ,,Whole,,320,100,11,4.5,0.0,23,50,840,34,2,3
-Panera,Panera Half Napa Almond Chicken Salad Sandwich ,,Whole,,320,140,16,2.5,0.0,14,35,380,31,2,6
-Panera,Panera Half Roasted Turkey & Avocado BLT ,,Whole,,340,160,18,3.5,0.0,21,40,650,27,3,2
-Panera,Panera Whole Heritage Ham & Swiss Sandwich ,,Whole,,630,280,31,11,0,41,100,1390,48,3,2
-Panera,Panera Half Heritage Ham & Swiss Sandwich ,,Half,,320,140,15,6,0,21,50,690,24,1,1
-Panera,Panera Whole Mediterranean Veggie Sandwich ,,Whole,,470,110,13,3,0,18,10,1150,68,6,8
-Panera,Panera Half Mediterranean Veggie Sandwich ,,Half,,220,60,6,1.5,0.0,9,5,630,33,3,4
-Panera,Panera Whole Modern Caprese Sandwich ,,Whole,,860,350,39,19,1,43,65,2180,85,6,11
-Panera,Panera Half Modern Caprese Sandwich ,,Half,,430,180,20,10,0,24,35,1090,43,3,6
-Panera,Panera Whole Smokehouse BBQ Chicken Sandwich ,,Whole,,760,270,30,15,1,41,120,1880,81,3,18
-Panera,Panera Half Smokehouse BBQ Chicken Sandwich ,,Half,,380,130,15,7,0,21,60,940,41,1,9
-Panera,Panera Whole Steak & White Cheddar Panini ,,Whole,,870,330,37,15,1.0,48,120,1490,87,4,7
-Panera,Panera Half Steak & White Cheddar Panini ,,Half,,430,170,18,7.0,0.0,24,60,740,43,2,4
-Panera,Panera Whole Teriyaki Chicken Sandwich ,,Whole,,870,330,37,7,0,42,125,1760,93,4,14
-Panera,Panera Half Teriyaki Chicken Sandwich ,,Half,,430,170,18,3.5,0,21,60,880,46,2,7
-Panera,Panera Full Tuna Salad Sandwich ,,Full,,640,310,34,5,0,28,40,1350,58,4,5
-Panera,Panera Half Tuna Salad Sandwich ,,Half,,320,150,17,2.5,0,14,20,680,29,2,3
+Panera,Panera Whole Chipotle Bacon Melt ,NA,Whole,NA,900,470,52,27,1,42,150,1960,67,2,11
+Panera,Panera Half Chipotle Bacon Melt ,NA,Half,NA,450,230,26,14,.5,21,75,980,34,1,5
+Panera,Panera Whole Chipotle Chicken Avocado Melt ,NA,Whole,NA,850,370,41,14,0,41,110,2080,80,8,5
+Panera,Panera Half Chipotle Chicken Avocado Melt ,NA,Half,NA,430,190,21,7,0,21,55,1040,40,4,2
+Panera,Panera Whole Chipotle Chicken Avocado Melt ,NA,Whole,NA,850,370,41,14,0,41,110,2080,80,8,5
+Panera,Panera Half Chipotle Chicken Avocado Melt ,NA,Half,NA,430,190,21,7,0,21,55,1040,40,4,2
+Panera,Panera Whole Classic Grilled Cheese ,NA,Whole,NA,700,320,35,22,1,31,110,1730,67,2,10
+Panera,Panera Half Classic Grilled Cheese ,NA,Half,NA,350,160,18,11,.5,16,55,870,33,1,5
+Panera,Panera Whole Frontega Chicken Panini ,NA,Whole,NA,730,260,29,9.0,0,39,80,2110,79,5,5
+Panera,Panera Half Frontega Chicken Panini ,NA,Half,NA,360,130,14,4.5,0.0,19,40,1050,39,2,3
+Panera,Panera Full Bacon Turkey Bravo Sandwich ,NA,Whole,NA,640,190,21,9,0.0,45,95,1680,68,3,7
+Panera,Panera Full Napa Almond Chicken Salad Sandwich ,NA,Whole,NA,630,290,32,5,0,28,70,750,62,5,12
+Panera,Panera Full Roasted Turkey & Avocado BLT ,NA,Whole,NA,690,320,35,7,0.0,43,80,1310,53,7,4
+Panera,Panera Half Bacon Turkey Bravo Sandwich ,NA,Whole,NA,320,100,11,4.5,0.0,23,50,840,34,2,3
+Panera,Panera Half Napa Almond Chicken Salad Sandwich ,NA,Whole,NA,320,140,16,2.5,0.0,14,35,380,31,2,6
+Panera,Panera Half Roasted Turkey & Avocado BLT ,NA,Whole,NA,340,160,18,3.5,0.0,21,40,650,27,3,2
+Panera,Panera Whole Heritage Ham & Swiss Sandwich ,NA,Whole,NA,630,280,31,11,0,41,100,1390,48,3,2
+Panera,Panera Half Heritage Ham & Swiss Sandwich ,NA,Half,NA,320,140,15,6,0,21,50,690,24,1,1
+Panera,Panera Whole Mediterranean Veggie Sandwich ,NA,Whole,NA,470,110,13,3,0,18,10,1150,68,6,8
+Panera,Panera Half Mediterranean Veggie Sandwich ,NA,Half,NA,220,60,6,1.5,0.0,9,5,630,33,3,4
+Panera,Panera Whole Modern Caprese Sandwich ,NA,Whole,NA,860,350,39,19,1,43,65,2180,85,6,11
+Panera,Panera Half Modern Caprese Sandwich ,NA,Half,NA,430,180,20,10,0,24,35,1090,43,3,6
+Panera,Panera Whole Smokehouse BBQ Chicken Sandwich ,NA,Whole,NA,760,270,30,15,1,41,120,1880,81,3,18
+Panera,Panera Half Smokehouse BBQ Chicken Sandwich ,NA,Half,NA,380,130,15,7,0,21,60,940,41,1,9
+Panera,Panera Whole Steak & White Cheddar Panini ,NA,Whole,NA,870,330,37,15,1.0,48,120,1490,87,4,7
+Panera,Panera Half Steak & White Cheddar Panini ,NA,Half,NA,430,170,18,7.0,0.0,24,60,740,43,2,4
+Panera,Panera Whole Teriyaki Chicken Sandwich ,NA,Whole,NA,870,330,37,7,0,42,125,1760,93,4,14
+Panera,Panera Half Teriyaki Chicken Sandwich ,NA,Half,NA,430,170,18,3.5,0,21,60,880,46,2,7
+Panera,Panera Full Tuna Salad Sandwich ,NA,Full,NA,640,310,34,5,0,28,40,1350,58,4,5
+Panera,Panera Half Tuna Salad Sandwich ,NA,Half,NA,320,150,17,2.5,0,14,20,680,29,2,3
