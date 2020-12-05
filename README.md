@@ -104,9 +104,13 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ##### Exercise Examples
 ![Exercise Examples](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/Exercise_screenshot.png)
   
+### Blimpie
+- We initially planned on extracting data from the Blimpie, but because of unforseeable reasons, we weren't able to collect that data.
+- So, in the end, we just focused on extracting data from Panera, Quiznos, Subway and Jimmy Johns. 
 
 ### Subway 
 - Constraints: Because of the large amount of information, the focus was to extract specifically the Subway sandwich type: 6" data only. 
+- The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
 
 ## Code Examples
 *coming soon*
