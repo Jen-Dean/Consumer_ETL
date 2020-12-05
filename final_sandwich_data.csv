@@ -183,71 +183,71 @@
 181,Lobster & Seafood Salad ," with lobster & seafood salad, shredded lettuce",Quiznos,Bread is a white baguette unless otherwise noted in the description,"8"" Sub",610,200,22,10.0,0.5,70,1690,80,5,6.0,24
 182,Lobster & Seafood Salad ," with lobster & seafood salad, shredded lettuce",Quiznos,Bread is a white baguette unless otherwise noted in the description,"12"" Sub",910,300,33,15.0,1.0,100,2540,120,7,10.0,35
 183,Lobster & Seafood Salad ," with lobster & seafood salad, shredded lettuce",Quiznos,Bread is a white baguette unless otherwise noted in the description,Sammie,300,120,13,5.0,0.0,35,810,34,4,3.0,11
-184,Panera Whole Chipotle Bacon Melt ,,Panera,,Whole,900,470,52,27.0,1.0,150,1960,67,2,11.0,42
-185,Panera Half Chipotle Bacon Melt ,,Panera,,Half,450,230,26,14.0,0.5,75,980,34,1,5.0,21
-186,Panera Whole Chipotle Chicken Avocado Melt ,,Panera,,Whole,850,370,41,14.0,0.0,110,2080,80,8,5.0,41
-187,Panera Half Chipotle Chicken Avocado Melt ,,Panera,,Half,430,190,21,7.0,0.0,55,1040,40,4,2.0,21
-188,Panera Whole Chipotle Chicken Avocado Melt ,,Panera,,Whole,850,370,41,14.0,0.0,110,2080,80,8,5.0,41
-189,Panera Half Chipotle Chicken Avocado Melt ,,Panera,,Half,430,190,21,7.0,0.0,55,1040,40,4,2.0,21
-190,Panera Whole Classic Grilled Cheese ,,Panera,,Whole,700,320,35,22.0,1.0,110,1730,67,2,10.0,31
-191,Panera Half Classic Grilled Cheese ,,Panera,,Half,350,160,18,11.0,0.5,55,870,33,1,5.0,16
-192,Panera Whole Frontega Chicken Panini ,,Panera,,Whole,730,260,29,9.0,0.0,80,2110,79,5,5.0,39
-193,Panera Half Frontega Chicken Panini ,,Panera,,Half,360,130,14,4.5,0.0,40,1050,39,2,3.0,19
-194,Panera Full Bacon Turkey Bravo Sandwich ,,Panera,,Whole,640,190,21,9.0,0.0,95,1680,68,3,7.0,45
-195,Panera Full Napa Almond Chicken Salad Sandwich ,,Panera,,Whole,630,290,32,5.0,0.0,70,750,62,5,12.0,28
-196,Panera Full Roasted Turkey & Avocado BLT ,,Panera,,Whole,690,320,35,7.0,0.0,80,1310,53,7,4.0,43
-197,Panera Half Bacon Turkey Bravo Sandwich ,,Panera,,Whole,320,100,11,4.5,0.0,50,840,34,2,3.0,23
-198,Panera Half Napa Almond Chicken Salad Sandwich ,,Panera,,Whole,320,140,16,2.5,0.0,35,380,31,2,6.0,14
-199,Panera Half Roasted Turkey & Avocado BLT ,,Panera,,Whole,340,160,18,3.5,0.0,40,650,27,3,2.0,21
-200,Panera Whole Heritage Ham & Swiss Sandwich ,,Panera,,Whole,630,280,31,11.0,0.0,100,1390,48,3,2.0,41
-201,Panera Half Heritage Ham & Swiss Sandwich ,,Panera,,Half,320,140,15,6.0,0.0,50,690,24,1,1.0,21
-202,Panera Whole Mediterranean Veggie Sandwich ,,Panera,,Whole,470,110,13,3.0,0.0,10,1150,68,6,8.0,18
-203,Panera Half Mediterranean Veggie Sandwich ,,Panera,,Half,220,60,6,1.5,0.0,5,630,33,3,4.0,9
-204,Panera Whole Modern Caprese Sandwich ,,Panera,,Whole,860,350,39,19.0,1.0,65,2180,85,6,11.0,43
-205,Panera Half Modern Caprese Sandwich ,,Panera,,Half,430,180,20,10.0,0.0,35,1090,43,3,6.0,24
-206,Panera Whole Smokehouse BBQ Chicken Sandwich ,,Panera,,Whole,760,270,30,15.0,1.0,120,1880,81,3,18.0,41
-207,Panera Half Smokehouse BBQ Chicken Sandwich ,,Panera,,Half,380,130,15,7.0,0.0,60,940,41,1,9.0,21
-208,Panera Whole Steak & White Cheddar Panini ,,Panera,,Whole,870,330,37,15.0,1.0,120,1490,87,4,7.0,48
-209,Panera Half Steak & White Cheddar Panini ,,Panera,,Half,430,170,18,7.0,0.0,60,740,43,2,4.0,24
-210,Panera Whole Teriyaki Chicken Sandwich ,,Panera,,Whole,870,330,37,7.0,0.0,125,1760,93,4,14.0,42
-211,Panera Half Teriyaki Chicken Sandwich ,,Panera,,Half,430,170,18,3.5,0.0,60,880,46,2,7.0,21
-212,Panera Full Tuna Salad Sandwich ,,Panera,,Full,640,310,34,5.0,0.0,40,1350,58,4,5.0,28
-213,Panera Half Tuna Salad Sandwich ,,Panera,,Half,320,150,17,2.5,0.0,20,680,29,2,3.0,14
-214,"Subway 6"" Chipotle Chicken and Cheese ",,Subway,,,450,,18.0,,0.0,70,,46,5,,7
-215,"Subway 6"" B.L.T. ",,Subway,,,340,,13.0,,0.0,35,,37,2,,5
-216,"Subway 6"" BBQ Rib Sandwich ",,Subway,,,580,,31.0,,0.0,60,,54,3,,18
-217,"Subway 6"" Bi Hot Pastrai ",,Subway,,,580,,31.0,,0.0,85,,47,5,,7
-218,"Subway 6"" Black Forest Ha ",,Subway,,,260,,4.0,,0.0,25,,41,5,,6
-219,"Subway 6"" Buffalo Chicken Sandwich ",,Subway,,,340,,12.0,,0.0,50,,39,3,,5
-220,"Subway 6"" Chicken & Bacon Ranch Melt ",,Subway,,,570,,28.0,,1.0,95,,47,5,,8
-221,Subway Chicken Cordon Bleu Melt ,,Subway,,,410,,9.0,,0.0,75,,53,5,,13
-222,"Subway 6"" Chicken Mano Curry Sandwich ",,Subway,,,330,,7.0,,0.0,50,,43,3,,8
-223,"Subway 6"" Chicken Pizziola Melt ",,Subway,,,460,,16.0,,0.0,80,,49,6,,9
-224,"Subway 6"" Chicken Tikka Sandwich ",,Subway,,,290,,5.0,,0.0,50,,39,2,,5
-225,"Subway 6"" Chicken Vindaloo Sandwich ",,Subway,,,340,,9.0,,0.0,50,,42,3,,6
-226,"Subway 6"" Cold Cut Cobo ",,Subway,,,370,,13.0,,0.0,50,,46,5,,7
-227,"Subway 6"" Genoa Salai Sandwich ",,Subway,,,430,,23.0,,0.0,60,,40,2,,5
-228,Subway Ha & Jack Slider ,,Subway,,,150,,4.5,,0.0,20,,17,1,,1
-229,"Subway 6"" Italian B.M.T. ",,Subway,,,410,,16.0,,0.0,45,,46,5,,8
-230,Subway Italian Spice Slider ,,Subway,,,230,,14.0,,0.0,30,,18,1,,1
-231,Subway Little Cheesesteak Slider ,,Subway,,,180,,7.0,,0.0,15,,19,1,,2
-232,Subway Little Turkey Slider ,,Subway,,,200,,10.0,,0.0,25,,17,1,,1
-233,"Subway 6"" Meatball Marinara ",,Subway,,,480,,18.0,,1.0,30,,59,8,,12
-234,"Subway 6"" Oven Roasted Chicken ",,Subway,,,320,,5.0,,0.0,25,,47,5,,8
-235,"Subway 6"" Paneer Tikka Sandwich ",,Subway,,,570,,30.0,,0.5,70,,48,3,,7
-236,"Subway 6"" Roast Beef ",,Subway,,,320,,5.0,,0.0,40,,45,5,,7
-237,"Subway 6"" Rotisserie Style Chicken ",,Subway,,,350,,6.0,,0.0,50,,44,5,,7
-238,"Subway 6"" Southwest Chicken Club Sandwich ",,Subway,,,580,,29.0,,0.0,95,,43,4,,6
-239,"Subway 6"" Spicy Italian ",,Subway,,,480,,24.0,,1.0,50,,46,5,,8
-240,"Subway 6"" Steak and Cheese ",,Subway,,,380,,10.0,,0.0,50,,48,5,,8
-241,"Subway 6"" Subway Club ",,Subway,,,310,,5.0,,0.0,40,,46,5,,7
-242,"Subway 6"" Subway Melt (includes cheese) ",,Subway,,,370,,11.0,,0.0,45,,47,5,,8
-243,"Subway 6"" Subway Seafood Sensation ",,Subway,,,420,,19.0,,0.0,20,,51,5,,8
-244,"Subway 6"" Sweet Onion Chicken Teriyaki ",,Subway,,,380,,5.0,,0.0,50,,59,5,,18
-245,"Subway 6"" Tuna ",,Subway,,,470,,24.0,,0.0,30,,44,5,,6
-246,"Subway 6"" Turkey & Bacon Avocado ",,Subway,,,390,,13.0,,0.0,30,,49,8,,7
-247,"Subway 6"" Turkey Breast ",,Subway,,,280,,4.0,,0.0,20,,46,5,,7
-248,"Subway 6"" Turkey Breast & Ha ",,Subway,,,280,,4.0,,0.0,20,,46,5,,8
-249,"Subway 6"" Turkey Italiano Melt (with Provolone) ",,Subway,,,490,,24.0,,1.0,50,,47,5,,8
-250,"Subway 6"" Veie Delite ",,Subway,,,230,,3.0,,0.0,0,,44,5,,6
-251,"Subway 6"" Veie Patty ",,Subway,,,390,,7.0,,0.0,10,,56,8,,8
+184,Panera Whole Chipotle Bacon Melt ,na,Panera,na,Whole,900,470,52,27.0,1.0,150,1960,67,2,11.0,42
+185,Panera Half Chipotle Bacon Melt ,na,Panera,na,Half,450,230,26,14.0,0.5,75,980,34,1,5.0,21
+186,Panera Whole Chipotle Chicken Avocado Melt ,na,Panera,na,Whole,850,370,41,14.0,0.0,110,2080,80,8,5.0,41
+187,Panera Half Chipotle Chicken Avocado Melt ,na,Panera,na,Half,430,190,21,7.0,0.0,55,1040,40,4,2.0,21
+188,Panera Whole Chipotle Chicken Avocado Melt ,na,Panera,na,Whole,850,370,41,14.0,0.0,110,2080,80,8,5.0,41
+189,Panera Half Chipotle Chicken Avocado Melt ,na,Panera,na,Half,430,190,21,7.0,0.0,55,1040,40,4,2.0,21
+190,Panera Whole Classic Grilled Cheese ,na,Panera,na,Whole,700,320,35,22.0,1.0,110,1730,67,2,10.0,31
+191,Panera Half Classic Grilled Cheese ,na,Panera,na,Half,350,160,18,11.0,0.5,55,870,33,1,5.0,16
+192,Panera Whole Frontega Chicken Panini ,na,Panera,na,Whole,730,260,29,9.0,0.0,80,2110,79,5,5.0,39
+193,Panera Half Frontega Chicken Panini ,na,Panera,na,Half,360,130,14,4.5,0.0,40,1050,39,2,3.0,19
+194,Panera Full Bacon Turkey Bravo Sandwich ,na,Panera,na,Whole,640,190,21,9.0,0.0,95,1680,68,3,7.0,45
+195,Panera Full Napa Almond Chicken Salad Sandwich ,na,Panera,na,Whole,630,290,32,5.0,0.0,70,750,62,5,12.0,28
+196,Panera Full Roasted Turkey & Avocado BLT ,na,Panera,na,Whole,690,320,35,7.0,0.0,80,1310,53,7,4.0,43
+197,Panera Half Bacon Turkey Bravo Sandwich ,na,Panera,na,Whole,320,100,11,4.5,0.0,50,840,34,2,3.0,23
+198,Panera Half Napa Almond Chicken Salad Sandwich ,na,Panera,na,Whole,320,140,16,2.5,0.0,35,380,31,2,6.0,14
+199,Panera Half Roasted Turkey & Avocado BLT ,na,Panera,na,Whole,340,160,18,3.5,0.0,40,650,27,3,2.0,21
+200,Panera Whole Heritage Ham & Swiss Sandwich ,na,Panera,na,Whole,630,280,31,11.0,0.0,100,1390,48,3,2.0,41
+201,Panera Half Heritage Ham & Swiss Sandwich ,na,Panera,na,Half,320,140,15,6.0,0.0,50,690,24,1,1.0,21
+202,Panera Whole Mediterranean Veggie Sandwich ,na,Panera,na,Whole,470,110,13,3.0,0.0,10,1150,68,6,8.0,18
+203,Panera Half Mediterranean Veggie Sandwich ,na,Panera,na,Half,220,60,6,1.5,0.0,5,630,33,3,4.0,9
+204,Panera Whole Modern Caprese Sandwich ,na,Panera,na,Whole,860,350,39,19.0,1.0,65,2180,85,6,11.0,43
+205,Panera Half Modern Caprese Sandwich ,na,Panera,na,Half,430,180,20,10.0,0.0,35,1090,43,3,6.0,24
+206,Panera Whole Smokehouse BBQ Chicken Sandwich ,na,Panera,na,Whole,760,270,30,15.0,1.0,120,1880,81,3,18.0,41
+207,Panera Half Smokehouse BBQ Chicken Sandwich ,na,Panera,na,Half,380,130,15,7.0,0.0,60,940,41,1,9.0,21
+208,Panera Whole Steak & White Cheddar Panini ,na,Panera,na,Whole,870,330,37,15.0,1.0,120,1490,87,4,7.0,48
+209,Panera Half Steak & White Cheddar Panini ,na,Panera,na,Half,430,170,18,7.0,0.0,60,740,43,2,4.0,24
+210,Panera Whole Teriyaki Chicken Sandwich ,na,Panera,na,Whole,870,330,37,7.0,0.0,125,1760,93,4,14.0,42
+211,Panera Half Teriyaki Chicken Sandwich ,na,Panera,na,Half,430,170,18,3.5,0.0,60,880,46,2,7.0,21
+212,Panera Full Tuna Salad Sandwich ,na,Panera,na,Full,640,310,34,5.0,0.0,40,1350,58,4,5.0,28
+213,Panera Half Tuna Salad Sandwich ,na,Panera,na,Half,320,150,17,2.5,0.0,20,680,29,2,3.0,14
+214,"Subway 6"" Chipotle Chicken and Cheese ",na,Subway,na,na,450,na,18.0,na,0.0,70,na,46,5,na,7
+215,"Subway 6"" B.L.T. ",na,Subway,na,na,340,na,13.0,na,0.0,35,na,37,2,na,5
+216,"Subway 6"" BBQ Rib Sandwich ",na,Subway,na,na,580,na,31.0,na,0.0,60,na,54,3,na,18
+217,"Subway 6"" Bi Hot Pastrai ",na,Subway,na,na,580,na,31.0,na,0.0,85,na,47,5,na,7
+218,"Subway 6"" Black Forest Ha ",na,Subway,na,na,260,na,4.0,na,0.0,25,na,41,5,na,6
+219,"Subway 6"" Buffalo Chicken Sandwich ",na,Subway,na,na,340,na,12.0,na,0.0,50,na,39,3,na,5
+220,"Subway 6"" Chicken & Bacon Ranch Melt ",na,Subway,na,na,570,na,28.0,na,1.0,95,na,47,5,na,8
+221,Subway Chicken Cordon Bleu Melt ,na,Subway,na,na,410,na,9.0,na,0.0,75,na,53,5,na,13
+222,"Subway 6"" Chicken Mano Curry Sandwich ",na,Subway,na,na,330,na,7.0,na,0.0,50,na,43,3,na,8
+223,"Subway 6"" Chicken Pizziola Melt ",na,Subway,na,na,460,na,16.0,na,0.0,80,na,49,6,na,9
+224,"Subway 6"" Chicken Tikka Sandwich ",na,Subway,na,na,290,na,5.0,na,0.0,50,na,39,2,na,5
+225,"Subway 6"" Chicken Vindaloo Sandwich ",na,Subway,na,na,340,na,9.0,na,0.0,50,na,42,3,na,6
+226,"Subway 6"" Cold Cut Cobo ",na,Subway,na,na,370,na,13.0,na,0.0,50,na,46,5,na,7
+227,"Subway 6"" Genoa Salai Sandwich ",na,Subway,na,na,430,na,23.0,na,0.0,60,na,40,2,na,5
+228,Subway Ha & Jack Slider ,na,Subway,na,na,150,na,4.5,na,0.0,20,na,17,1,na,1
+229,"Subway 6"" Italian B.M.T. ",na,Subway,na,na,410,na,16.0,na,0.0,45,na,46,5,na,8
+230,Subway Italian Spice Slider ,na,Subway,na,na,230,na,14.0,na,0.0,30,na,18,1,na,1
+231,Subway Little Cheesesteak Slider ,na,Subway,na,na,180,na,7.0,na,0.0,15,na,19,1,na,2
+232,Subway Little Turkey Slider ,na,Subway,na,na,200,na,10.0,na,0.0,25,na,17,1,na,1
+233,"Subway 6"" Meatball Marinara ",na,Subway,na,na,480,na,18.0,na,1.0,30,na,59,8,na,12
+234,"Subway 6"" Oven Roasted Chicken ",na,Subway,na,na,320,na,5.0,na,0.0,25,na,47,5,na,8
+235,"Subway 6"" Paneer Tikka Sandwich ",na,Subway,na,na,570,na,30.0,na,0.5,70,na,48,3,na,7
+236,"Subway 6"" Roast Beef ",na,Subway,na,na,320,na,5.0,na,0.0,40,na,45,5,na,7
+237,"Subway 6"" Rotisserie Style Chicken ",na,Subway,na,na,350,na,6.0,na,0.0,50,na,44,5,na,7
+238,"Subway 6"" Southwest Chicken Club Sandwich ",na,Subway,na,na,580,na,29.0,na,0.0,95,na,43,4,na,6
+239,"Subway 6"" Spicy Italian ",na,Subway,na,na,480,na,24.0,na,1.0,50,na,46,5,na,8
+240,"Subway 6"" Steak and Cheese ",na,Subway,na,na,380,na,10.0,na,0.0,50,na,48,5,na,8
+241,"Subway 6"" Subway Club ",na,Subway,na,na,310,na,5.0,na,0.0,40,na,46,5,na,7
+242,"Subway 6"" Subway Melt (includes cheese) ",na,Subway,na,na,370,na,11.0,na,0.0,45,na,47,5,na,8
+243,"Subway 6"" Subway Seafood Sensation ",na,Subway,na,na,420,na,19.0,na,0.0,20,na,51,5,na,8
+244,"Subway 6"" Sweet Onion Chicken Teriyaki ",na,Subway,na,na,380,na,5.0,na,0.0,50,na,59,5,na,18
+245,"Subway 6"" Tuna ",na,Subway,na,na,470,na,24.0,na,0.0,30,na,44,5,na,6
+246,"Subway 6"" Turkey & Bacon Avocado ",na,Subway,na,na,390,na,13.0,na,0.0,30,na,49,8,na,7
+247,"Subway 6"" Turkey Breast ",na,Subway,na,na,280,na,4.0,na,0.0,20,na,46,5,na,7
+248,"Subway 6"" Turkey Breast & Ha ",na,Subway,na,na,280,na,4.0,na,0.0,20,na,46,5,na,8
+249,"Subway 6"" Turkey Italiano Melt (with Provolone) ",na,Subway,na,na,490,na,24.0,na,1.0,50,na,47,5,na,8
+250,"Subway 6"" Veie Delite ",na,Subway,na,na,230,na,3.0,na,0.0,0,na,44,5,na,6
+251,"Subway 6"" Veie Patty ",na,Subway,na,na,390,na,7.0,na,0.0,10,na,56,8,na,8
