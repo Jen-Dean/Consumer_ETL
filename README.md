@@ -139,22 +139,22 @@ Here are some example queries you can run when looking for a specific sandwich n
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Jimmy Johns"
+  WHERE restaurant_name = 'Jimmy Johns'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Quiznos"
+  WHERE restaurant_name = 'Quiznos'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Subway"
+  WHERE restaurant_name = 'Subway'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Panera"
+  WHERE restaurant_name = 'Panera'
 ```
 
 #### Based on Nutrition Amounts:
