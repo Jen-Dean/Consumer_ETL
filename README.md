@@ -5,9 +5,9 @@
 
 * [Project Proposal](#project-proposal)
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Data Extraction, Transfer, Load](#Data-Extraction,-Transfer,-Load)
+* [Example Queries](#Example-Queries)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -65,9 +65,6 @@ We will be using Postgres since our collective data is all similar and we are no
 ## General info
 How do Sandwhiches Shop items and nutritional information relate to one another?
 
-## Screenshots
-*coming soon*
-
 ## Technologies
 * SQL
 * Splinter
@@ -77,11 +74,11 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 * PostgresSQL
 * QUICK DBD
 
-## Database Organization
+## Data Extraction, Transfer, Load
 ##### Database Relationship
 ![quickdbd](https://github.com/Jen-Dean/for-now/blob/main/QuickDBD_Set_Up/QuickDBD_ScreenShot.png)
 
-## Extrapolations & Notes
+## Extrapolations
 
 ### Customizations of Sandwhiches
 - Every single sandwich chain offers a unlimited number of customizations for each sandwich.  For a cleaner database we decided to forgo customizations and stick with the main "as is" offerings.
@@ -121,14 +118,11 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - Extracted data from the PDF through Tabula into CSV (Used tabula to pull the data from 21 sanwiches). Created a document with sandwich description. Viewed the CSV's in Excel to reformat the data. Later, rows were shifted to match data and delete blank rows. Lastly, loaded the multiple csvs to merge in Jupyter Notebook (merged 3 csv files into one dataframe).
 - During the tranformation process, firstly, cleaned up the dataframe. Renamed columns, and dropped any rows containing "Half Salad" or "Full Salad". Then, the index was reset. Exported final table as CSV to lead with group. Lastly, combined all the Restaurant csvs for final load.
 
-### Loading 
+## Loading the Data
 - Combined all the collective restaurant nutrition csvs into Postgres. Created a collective jupyter notebook for the loading process. Loaded the csvs to dataframe.  Made the necessary changes to the dataframe such as renaming columns. Made the connection. 
 - Loaded the collective restaurant nutrition dataframe to database. 
 
-
-
 ## Example Queries
-# Example Queries
 
 ### Finding Sandwich options
 
@@ -224,7 +218,7 @@ AND "205 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
 - Discover the value of how many calories certain exercises burn per min depending on weight
 
 ## Status
-Project is: _in progress_
+Project is: _finsihed_
 
 ## Inspiration
 Hunger, and Rutgers Data Science Bootcamp
