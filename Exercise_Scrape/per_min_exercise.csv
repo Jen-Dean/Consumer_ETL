@@ -1,79 +1,79 @@
-exercise_id,exercise (calories burned per min),130 lbs,155 lbs,180 lbs,205 lbs
-,"Cycling,mountain bike, bmx",8.4,10.0,11.6,13.2
+exercise_id,exercise,130 lbs,155 lbs,180 lbs,205 lbs
+,"Cycling,mountain bike, bmx",8.4,10,11.6,13.2
 ,"Cycling,<10 mph, leisure bicycling",3.9,4.7,5.4,6.2
 ,"Cycling,>20 mph, racing",15.7,18.8,21.8,24.8
-,"Cycling,10-11.9 mph, light",5.9,7.0,8.2,9.3
+,"Cycling,10-11.9 mph, light",5.9,7,8.2,9.3
 ,"Cycling,12-13.9 mph, moderate",7.9,9.4,10.9,12.4
 ,"Cycling,14-15.9 mph, vigorous",9.8,11.7,13.6,15.5
 ,"Cycling,16-19 mph, very fast, racing",11.8,14.1,16.4,18.6
-,"Stationarycycling, very light",3.0,3.5,4.1,4.6
+,"Stationarycycling, very light",3,3.5,4.1,4.6
 ,"Stationarycycling, light",5.4,6.4,7.5,8.5
 ,"Stationarycycling, moderate",6.9,8.2,9.5,10.8
 ,"Stationarycycling, vigorous",10.3,12.3,14.3,16.3
-,"Stationarycycling, very vigorous",12.3,14.7,17.0,19.4
+,"Stationarycycling, very vigorous",12.3,14.7,17,19.4
 ,"Calisthenics,vigorous, pushups, situps…",7.9,9.4,10.9,12.4
 ,"Calisthenics,light",3.4,4.1,4.8,5.4
 ,"Circuittraining, minimal rest",7.9,9.4,10.9,12.4
-,"Weightlifting, body building, vigorous",5.9,7.0,8.2,9.3
-,"Weightlifting, light workout",3.0,3.5,4.1,4.6
+,"Weightlifting, body building, vigorous",5.9,7,8.2,9.3
+,"Weightlifting, light workout",3,3.5,4.1,4.6
 ,Healthclub exercise,5.4,6.4,7.5,8.5
-,Stairmachine,8.8,10.6,12.2,14.0
+,Stairmachine,8.8,10.6,12.2,14
 ,"Rowingmachine, light",3.4,4.1,4.8,5.4
 ,"Rowingmachine, moderate",6.9,8.2,9.5,10.8
-,"Rowingmachine, vigorous",8.4,10.0,11.6,13.2
+,"Rowingmachine, vigorous",8.4,10,11.6,13.2
 ,"Rowingmachine, very vigorous",11.8,14.1,16.4,18.6
 ,Skimachine,6.9,8.2,9.5,10.8
 ,"Aerobics,low impact",4.9,5.9,6.8,7.8
 ,"Aerobics,high impact",6.9,8.2,9.5,10.8
-,"Aerobics,step aerobics",8.4,10.0,11.6,13.2
+,"Aerobics,step aerobics",8.4,10,11.6,13.2
 ,"Aerobics,general",6.4,7.6,8.8,10.1
 ,"Stretching,hatha yoga",3.9,4.7,5.4,6.2
 ,Mildstretching,2.5,2.9,3.4,3.9
-,Instructingaerobic class,5.9,7.0,8.2,9.3
+,Instructingaerobic class,5.9,7,8.2,9.3
 ,Wateraerobics,3.9,4.7,5.4,6.2
-,"Ballet,twist, jazz, tap",4.4,5.3,6.1,7.0
-,"Ballroomdancing, slow",3.0,3.5,4.1,4.6
+,"Ballet,twist, jazz, tap",4.4,5.3,6.1,7
+,"Ballroomdancing, slow",3,3.5,4.1,4.6
 ,"Ballroomdancing, fast",5.4,6.4,7.5,8.5
 ,"Running,5 mph (12 minute mile)",7.9,9.4,10.9,12.4
-,"Running,5.2 mph (11.5 minute mile)",8.8,10.6,12.2,14.0
+,"Running,5.2 mph (11.5 minute mile)",8.8,10.6,12.2,14
 ,"Running,6 mph (10 min mile)",9.8,11.7,13.6,15.5
-,"Running,6.7 mph (9 min mile)",10.8,12.9,15.0,17.1
+,"Running,6.7 mph (9 min mile)",10.8,12.9,15,17.1
 ,"Running,7 mph (8.5 min mile)",11.3,13.5,15.7,17.8
-,"Running,7.5mph (8 min mile)",12.3,14.7,17.0,19.4
+,"Running,7.5mph (8 min mile)",12.3,14.7,17,19.4
 ,"Running,8 mph (7.5 min mile)",13.3,15.8,18.4,20.9
 ,"Running,8.6 mph (7 min mile)",13.8,16.4,19.1,21.7
 ,"Running,9 mph (6.5 min mile)",14.8,17.6,20.4,23.3
 ,"Running,10 mph (6 min mile)",15.7,18.8,21.8,24.8
 ,"Running,10.9 mph (5.5 min mile)",17.7,21.1,24.5,27.9
-,"Running,cross country",8.8,10.6,12.2,14.0
+,"Running,cross country",8.8,10.6,12.2,14
 ,"Running,general",7.9,9.4,10.9,12.4
 ,"Running,on a track, team practice",9.8,11.7,13.6,15.5
 ,"Running,stairs, up",14.8,17.6,20.4,23.3
 ,"Trackand field (shot, discus)",3.9,4.7,5.4,6.2
-,"Trackand field (high jump, pole vault)",5.9,7.0,8.2,9.3
+,"Trackand field (high jump, pole vault)",5.9,7,8.2,9.3
 ,Trackand field (hurdles),9.8,11.7,13.6,15.5
 ,"Basketballgame, competitive",7.9,9.4,10.9,12.4
-,"Playingbasketball, non game",5.9,7.0,8.2,9.3
+,"Playingbasketball, non game",5.9,7,8.2,9.3
 ,"Basketball,officiating",6.9,8.2,9.5,10.8
-,"Basketball,shooting baskets",4.4,5.3,6.1,7.0
+,"Basketball,shooting baskets",4.4,5.3,6.1,7
 ,"Basketball,wheelchair",6.4,7.6,8.8,10.1
 ,"Running,training, pushing wheelchair",7.9,9.4,10.9,12.4
 ,"Boxing,in ring",11.8,14.1,16.4,18.6
-,"Boxing,punching bag",5.9,7.0,8.2,9.3
-,"Boxing,sparring",8.8,10.6,12.2,14.0
+,"Boxing,punching bag",5.9,7,8.2,9.3
+,"Boxing,sparring",8.8,10.6,12.2,14
 ,"Coaching:football, basketball, soccer…",3.9,4.7,5.4,6.2
 ,"Cricket(batting, bowling)",4.9,5.9,6.8,7.8
 ,Darts(wall or lawn),2.5,2.9,3.4,3.9
-,"Football,competitive",8.8,10.6,12.2,14.0
+,"Football,competitive",8.8,10.6,12.2,14
 ,"Football,touch, flag, general",7.9,9.4,10.9,12.4
 ,"Footballor baseball, playing catch",2.5,2.9,3.4,3.9
-,"Frisbeeplaying, general",3.0,3.5,4.1,4.6
+,"Frisbeeplaying, general",3,3.5,4.1,4.6
 ,"Frisbee,ultimate frisbee",7.9,9.4,10.9,12.4
-,"Golf,general",4.4,5.3,6.1,7.0
-,"Golf,walking and carrying clubs",4.4,5.3,6.1,7.0
-,"Golf,driving range",3.0,3.5,4.1,4.6
-,"Golf,miniature golf",3.0,3.5,4.1,4.6
-,"Golf,walking and pulling clubs",4.2,5.0,5.8,6.7
+,"Golf,general",4.4,5.3,6.1,7
+,"Golf,walking and carrying clubs",4.4,5.3,6.1,7
+,"Golf,driving range",3,3.5,4.1,4.6
+,"Golf,miniature golf",3,3.5,4.1,4.6
+,"Golf,walking and pulling clubs",4.2,5,5.8,6.7
 ,"Golf,using power cart",3.4,4.1,4.8,5.4
 ,Hackysack,3.9,4.7,5.4,6.2
 ,"Handball,team",7.9,9.4,10.9,12.4
@@ -85,55 +85,55 @@ exercise_id,exercise (calories burned per min),130 lbs,155 lbs,180 lbs,205 lbs
 ,"Horsebackriding, trotting",6.4,7.6,8.8,10.1
 ,"Horsebackriding, walking",2.5,2.9,3.4,3.9
 ,"Horseracing, galloping",7.9,9.4,10.9,12.4
-,"Horsegrooming, moderate",5.9,7.0,8.2,9.3
-,Horseshoepitching,3.0,3.5,4.1,4.6
+,"Horsegrooming, moderate",5.9,7,8.2,9.3
+,Horseshoepitching,3,3.5,4.1,4.6
 ,Jaialai,11.8,14.1,16.4,18.6
 ,"Martialarts, judo, karate, jujitsu",9.8,11.7,13.6,15.5
 ,"Martialarts, kick boxing",9.8,11.7,13.6,15.5
 ,"Martialarts, tae kwan do",9.8,11.7,13.6,15.5
 ,Kravmaga training,9.8,11.7,13.6,15.5
-,Playingpaddleball,5.9,7.0,8.2,9.3
+,Playingpaddleball,5.9,7,8.2,9.3
 ,"Paddleball,competitive",9.8,11.7,13.6,15.5
 ,"Racquetball,competitive",9.8,11.7,13.6,15.5
 ,Playingracquetball,6.9,8.2,9.5,10.8
-,"Rockclimbing, ascending rock",10.8,12.9,15.0,17.1
+,"Rockclimbing, ascending rock",10.8,12.9,15,17.1
 ,"Rockclimbing, rappelling",7.9,9.4,10.9,12.4
 ,"Jumpingrope, fast",11.8,14.1,16.4,18.6
 ,"Jumpingrope, moderate",9.8,11.7,13.6,15.5
 ,"Jumpingrope, slow",7.9,9.4,10.9,12.4
-,"Shuffleboard,lawn bowling",3.0,3.5,4.1,4.6
+,"Shuffleboard,lawn bowling",3,3.5,4.1,4.6
 ,Rollerskating,6.9,8.2,9.5,10.8
 ,"Rollerblading, in-line skating",11.8,14.1,16.4,18.6
-,Skydiving,3.0,3.5,4.1,4.6
+,Skydiving,3,3.5,4.1,4.6
 ,"Soccer,competitive",9.8,11.7,13.6,15.5
 ,Playingsoccer,6.9,8.2,9.5,10.8
 ,Softballor baseball,4.9,5.9,6.8,7.8
 ,"Softball,officiating",3.9,4.7,5.4,6.2
-,"Softball,pitching",5.9,7.0,8.2,9.3
+,"Softball,pitching",5.9,7,8.2,9.3
 ,"Tabletennis, ping pong",3.9,4.7,5.4,6.2
 ,Taichi,3.9,4.7,5.4,6.2
 ,Playingtennis,6.9,8.2,9.5,10.8
-,"Tennis,doubles",5.9,7.0,8.2,9.3
+,"Tennis,doubles",5.9,7,8.2,9.3
 ,"Tennis,singles",7.9,9.4,10.9,12.4
 ,"Volleyball,competitive",7.9,9.4,10.9,12.4
-,Playingvolleyball,3.0,3.5,4.1,4.6
+,Playingvolleyball,3,3.5,4.1,4.6
 ,"Volleyball,beach",7.9,9.4,10.9,12.4
 ,"Backpacking,Hiking with pack",6.9,8.2,9.5,10.8
 ,"Carryinginfant, level ground",3.4,4.1,4.8,5.4
 ,"Carryinginfant, upstairs",4.9,5.9,6.8,7.8
-,"Carrying16 to 24 lbs, upstairs",5.9,7.0,8.2,9.3
+,"Carrying16 to 24 lbs, upstairs",5.9,7,8.2,9.3
 ,"Carrying25 to 49 lbs, upstairs",7.9,9.4,10.9,12.4
 ,"Standing,playing with children, light",2.8,3.3,3.8,4.4
 ,"Walk/run,playing with children, moderate",3.9,4.7,5.4,6.2
 ,"Walk/run,playing with children, vigorous",4.9,5.9,6.8,7.8
-,Carryingsmall children,3.0,3.5,4.1,4.6
-,"Loading,unloading car",3.0,3.5,4.1,4.6
+,Carryingsmall children,3,3.5,4.1,4.6
+,"Loading,unloading car",3,3.5,4.1,4.6
 ,"Climbinghills, carrying up to 9 lbs",6.9,8.2,9.5,10.8
 ,"Climbinghills, carrying 10 to 20 lb",7.4,8.8,10.2,11.6
 ,"Climbinghills, carrying 21 to 42 lb",7.9,9.4,10.9,12.4
-,"Climbinghills, carrying over 42 lb",8.8,10.6,12.2,14.0
-,Walkingdownstairs,3.0,3.5,4.1,4.6
-,"Hiking,cross country",5.9,7.0,8.2,9.3
+,"Climbinghills, carrying over 42 lb",8.8,10.6,12.2,14
+,Walkingdownstairs,3,3.5,4.1,4.6
+,"Hiking,cross country",5.9,7,8.2,9.3
 ,Birdwatching,2.5,2.9,3.4,3.9
 ,"Marching,rapidly, military",6.4,7.6,8.8,10.1
 ,"Children'sgames, hopscotch, dodgeball",4.9,5.9,6.8,7.8
@@ -142,59 +142,59 @@ exercise_id,exercise (calories burned per min),130 lbs,155 lbs,180 lbs,205 lbs
 ,Racewalking,6.4,7.6,8.8,10.1
 ,"Rockclimbing, mountain climbing",7.9,9.4,10.9,12.4
 ,Walkingusing crutches,4.9,5.9,6.8,7.8
-,Walkingthe dog,3.0,3.5,4.1,4.6
-,"Walking,under 2.0 mph, very slow",2.0,2.4,2.7,3.1
+,Walkingthe dog,3,3.5,4.1,4.6
+,"Walking,under 2.0 mph, very slow",2,2.4,2.7,3.1
 ,"Walking2.0 mph, slow",2.5,2.9,3.4,3.9
-,Walking2.5 mph,3.0,3.5,4.1,4.6
+,Walking2.5 mph,3,3.5,4.1,4.6
 ,"Walking3.0 mph, moderate",3.2,3.9,4.5,5.1
 ,"Walking3.5 mph, brisk pace",3.7,4.4,5.2,5.9
-,"Walking3.5 mph, uphill",5.9,7.0,8.2,9.3
+,"Walking3.5 mph, uphill",5.9,7,8.2,9.3
 ,"Walking4.0 mph, very brisk",4.9,5.9,6.8,7.8
 ,Walking4.5 mph,6.2,7.4,8.6,9.8
 ,Walking5.0 mph,7.9,9.4,10.9,12.4
 ,"Boating,power, speed boat",2.5,2.9,3.4,3.9
 ,"Canoeing,camping trip",3.9,4.7,5.4,6.2
-,"Canoeing,rowing, light",3.0,3.5,4.1,4.6
+,"Canoeing,rowing, light",3,3.5,4.1,4.6
 ,"Canoeing,rowing, moderate",6.9,8.2,9.5,10.8
 ,"Canoeing,rowing, vigorous",11.8,14.1,16.4,18.6
 ,"Crew,sculling, rowing, competition",11.8,14.1,16.4,18.6
 ,Paddleboat,3.9,4.7,5.4,6.2
-,"Windsurfing,sailing",3.0,3.5,4.1,4.6
+,"Windsurfing,sailing",3,3.5,4.1,4.6
 ,"Sailing,competition",4.9,5.9,6.8,7.8
-,"Sailing,yachting, ocean sailing",3.0,3.5,4.1,4.6
-,"Skiing,water skiing",5.9,7.0,8.2,9.3
+,"Sailing,yachting, ocean sailing",3,3.5,4.1,4.6
+,"Skiing,water skiing",5.9,7,8.2,9.3
 ,Skimobiling,6.9,8.2,9.5,10.8
 ,"Skindiving, fast",15.7,18.8,21.8,24.8
-,"Skindiving, moderate",12.3,14.7,17.0,19.4
+,"Skindiving, moderate",12.3,14.7,17,19.4
 ,"Skindiving, scuba diving",6.9,8.2,9.5,10.8
-,"Surfing,body surfing or board surfing",3.0,3.5,4.1,4.6
+,"Surfing,body surfing or board surfing",3,3.5,4.1,4.6
 ,"Whitewaterrafting, kayaking, canoeing",4.9,5.9,6.8,7.8
 ,"Swimminglaps, freestyle, fast",9.8,11.7,13.6,15.5
 ,"Swimminglaps, freestyle, slow",6.9,8.2,9.5,10.8
 ,Swimmingbackstroke,6.9,8.2,9.5,10.8
 ,Swimmingbreaststroke,9.8,11.7,13.6,15.5
-,Swimmingbutterfly,10.8,12.9,15.0,17.1
-,"Swimmingleisurely, not laps",5.9,7.0,8.2,9.3
+,Swimmingbutterfly,10.8,12.9,15,17.1
+,"Swimmingleisurely, not laps",5.9,7,8.2,9.3
 ,Swimmingsidestroke,7.9,9.4,10.9,12.4
 ,Swimmingsynchronized,7.9,9.4,10.9,12.4
 ,"Swimming,treading water, fast, vigorous",9.8,11.7,13.6,15.5
 ,"Swimming,treading water, moderate",3.9,4.7,5.4,6.2
 ,"Wateraerobics, water calisthenics",3.9,4.7,5.4,6.2
 ,Waterpolo,9.8,11.7,13.6,15.5
-,Watervolleyball,3.0,3.5,4.1,4.6
+,Watervolleyball,3,3.5,4.1,4.6
 ,Waterjogging,7.9,9.4,10.9,12.4
-,"Diving,springboard or platform",3.0,3.5,4.1,4.6
+,"Diving,springboard or platform",3,3.5,4.1,4.6
 ,"Iceskating, < 9 mph",5.4,6.4,7.5,8.5
 ,"Iceskating, average speed",6.9,8.2,9.5,10.8
-,"Iceskating, rapidly",8.8,10.6,12.2,14.0
+,"Iceskating, rapidly",8.8,10.6,12.2,14
 ,"Speedskating, ice, competitive",14.8,17.6,20.4,23.3
 ,"Crosscountry snow skiing, slow",6.9,8.2,9.5,10.8
 ,"Crosscountry skiing, moderate",7.9,9.4,10.9,12.4
-,"Crosscountry skiing, vigorous",8.8,10.6,12.2,14.0
+,"Crosscountry skiing, vigorous",8.8,10.6,12.2,14
 ,"Crosscountry skiing, racing",13.8,16.4,19.1,21.7
 ,"Crosscountry skiing, uphill",16.2,19.4,22.5,25.6
 ,"Snowskiing, downhill skiing, light",4.9,5.9,6.8,7.8
-,"Downhillsnow skiing, moderate",5.9,7.0,8.2,9.3
+,"Downhillsnow skiing, moderate",5.9,7,8.2,9.3
 ,"Downhillsnow skiing, racing",7.9,9.4,10.9,12.4
 ,"Sledding,tobagganing, luge",6.9,8.2,9.5,10.8
 ,Snowshoeing,7.9,9.4,10.9,12.4
@@ -206,19 +206,19 @@ exercise_id,exercise (calories burned per min),130 lbs,155 lbs,180 lbs,205 lbs
 ,"Mowinglawn, walk, power mower",5.4,6.4,7.5,8.5
 ,"Mowinglawn, riding mower",2.5,2.9,3.4,3.9
 ,"Walking,snow blower",3.4,4.1,4.8,5.4
-,"Riding,snow blower",3.0,3.5,4.1,4.6
-,Shovelingsnow by hand,5.9,7.0,8.2,9.3
-,Rakinglawn,4.2,5.0,5.8,6.7
+,"Riding,snow blower",3,3.5,4.1,4.6
+,Shovelingsnow by hand,5.9,7,8.2,9.3
+,Rakinglawn,4.2,5,5.8,6.7
 ,"Gardening,general",3.9,4.7,5.4,6.2
 ,"Bagginggrass, leaves",3.9,4.7,5.4,6.2
-,Wateringlawn or garden,1.5,1.8,2.0,2.3
-,"Weeding,cultivating garden",4.4,5.3,6.1,7.0
+,Wateringlawn or garden,1.5,1.8,2,2.3
+,"Weeding,cultivating garden",4.4,5.3,6.1,7
 ,"Carpentry,general",3.4,4.1,4.8,5.4
 ,Carryingheavy loads,7.9,9.4,10.9,12.4
 ,Carryingmoderate loads upstairs,7.9,9.4,10.9,12.4
 ,Generalcleaning,3.4,4.1,4.8,5.4
 ,"Cleaning,dusting",2.5,2.9,3.4,3.9
-,Takingout trash,3.0,3.5,4.1,4.6
+,Takingout trash,3,3.5,4.1,4.6
 ,"Walking,pushing a wheelchair",3.9,4.7,5.4,6.2
 ,"Teachphysical education,exercise class",3.9,4.7,5.4,6.2
 ,Teachexercise classes (& participate),6.4,7.6,8.8,10.1
