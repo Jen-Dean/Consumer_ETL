@@ -5,9 +5,9 @@
 
 * [Project Proposal](#project-proposal)
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Data Extraction, Transfer, Load](#Data-Extraction,-Transfer,-Load)
+* [Example Queries](#Example-Queries)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -65,9 +65,6 @@ We will be using Postgres since our collective data is all similar and we are no
 ## General info
 How do Sandwhiches Shop items and nutritional information relate to one another?
 
-## Screenshots
-*coming soon*
-
 ## Technologies
 * SQL
 * Splinter
@@ -75,12 +72,13 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 * Pandas
 * Python
 * PostgresSQL
+* QUICK DBD
 
-## Database Organization
+## Data Extraction, Transfer, Load
 ##### Database Relationship
 ![quickdbd](https://github.com/Jen-Dean/for-now/blob/main/QuickDBD_Set_Up/QuickDBD_ScreenShot.png)
 
-## Extrapolations & Notes
+## Extrapolations
 
 ### Customizations of Sandwhiches
 - Every single sandwich chain offers a unlimited number of customizations for each sandwich.  For a cleaner database we decided to forgo customizations and stick with the main "as is" offerings.
@@ -111,7 +109,7 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ### Subway 
 - During the extraction process, because of the large amounts of information and time constraints, ended up focusing only on extracting the Subway sandwich length: 6" data only, using Beautiful soup etc. 
 - The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
-- During the transformation process, the dataframe was cleaned up. More columns were added to the dataframe. Then, the final table was exported to csv for the loading process.
+- During the transformation process, the dataframe was cleaned up. More columns were added to the dataframe. Then, the final subway table was exported as csv for the loading process.
 
 ### Panera
 - Extracted data Panera website and tranformed the data as necessary.
@@ -120,13 +118,11 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - Extracted data from the PDF through Tabula into CSV (Used tabula to pull the data from 21 sanwiches). Created a document with sandwich description. Viewed the CSV's in Excel to reformat the data. Later, rows were shifted to match data and delete blank rows. Lastly, loaded the multiple csvs to merge in Jupyter Notebook (merged 3 csv files into one dataframe).
 - During the tranformation process, firstly, cleaned up the dataframe. Renamed columns, and dropped any rows containing "Half Salad" or "Full Salad". Then, the index was reset. Exported final table as CSV to lead with group. Lastly, combined all the Restaurant csvs for final load.
 
-### Loading 
-- In progress: 
-
-
+## Loading the Data
+- Combined all the collective restaurant nutrition csvs into Postgres. Created a collective jupyter notebook for the loading process. Loaded the csvs to dataframe.  Made the necessary changes to the dataframe such as renaming columns. Made the connection. 
+- Loaded the collective restaurant nutrition dataframe to database. 
 
 ## Example Queries
-# Example Queries
 
 ### Finding Sandwich options
 
@@ -137,89 +133,92 @@ Here are some example queries you can run when looking for a specific sandwich n
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Jimmy Johns"
+  WHERE restaurant_name = 'Jimmy Johns'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Quiznos"
+  WHERE restaurant_name = 'Quiznos'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Subway"
+  WHERE restaurant_name = 'Subway'
 ```
 ```sql
   SELECT sandwich_name 
   FROM sandwiches
-  WHERE restaurant_name = "Panera"
+  WHERE restaurant_name = 'Panera'
 ```
 
 #### Based on Nutrition Amounts:
 
 ```sql
-  SELECT sandwich_name, restaurant_name, calories 
+  SELECT sandwich_name, restaurant_name, calories_cal_
   FROM sandwiches 
-  WHERE calories(cal) < 500
+  WHERE calories_cal_ < 500
 ```
 ```sql
-  SELECT sandwich_name, restaurant_name, calories 
-  FROM sandwiches WHERE calories(cal) < 500
-```
-```sql
-  SELECT sandwich_name, restaurant_name, calories, protein 
+  SELECT sandwich_name, restaurant_name, calories_cal_
   FROM sandwiches
-  WHERE calories(cal) < 500 AND
-  WHERE protein(grams) > 10
+  WHERE calories_cal_ < 500
 ```
 ```sql
-  SELECT sandwich_name, restaurant_name, calories, protein 
+  SELECT sandwich_name, restaurant_name, calories_cal_, protein_grams_
   FROM sandwiches
-  WHERE calories(cal) < 500 AND
-  WHERE protein(grams) > 10 AND
-  WHERE total_carbohydrates(mg)
+  WHERE calories_cal_ < 500
+  AND protein_grams_ > 10
+```
+```sql
+  SELECT sandwich_name, restaurant_name, calories_cal_, protein_grams_
+  FROM sandwiches
+  WHERE calories_cal_ < 500
+  AND protein_grams_ > 10
+  AND total_carbohydrates_mg_
 ```
 #### Based on Calories Burned per Min:
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs 
+SELECT exercise_type, "130 lbs"
 FROM exercises
-WHERE cal_per_min_130lbs >= 10
+WHERE "130 lbs" >= 10
 ```
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
 FROM exercises
-WHERE cal_per_min_130lbs >= 10
-AND WHERE cal_per_min_155lbs >= 10
-AND WHERE cal_per_min_180lbs >= 10
-AND WHERE cal_per_min_205lbs >= 10
+WHERE "130 lbs" >= 10
+AND "155 lbs" >= 10
+AND "180 lbs" >= 10
+AND "205 lbs" >= 10
 ```
 #### Situationally Based:
 
 "I ate a 430 calorie sandwich, I only have a 30 min lunch break to work off the sandwich - What are my exercise options?"
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
-WHERE cal_per_min_130lbs >= 430/30 AND
-WHERE cal_per_min_155lbs >= 430/30 AND
-WHERE cal_per_min_180lbs >= 430/30 AND
-WHERE cal_per_min_205lbs >= 430/30
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
+FROM exercises
+WHERE "130 lbs" >= 430/30
+AND "155 lbs" >= 430/30
+AND "180 lbs" >= 430/30
+AND "205 lbs" >= 430/30
 ```
 Here is the same example with the values removed so you can type in your own values:
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
-WHERE cal_per_min_130lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_155lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_180lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_205lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]**
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
+FROM exercises
+WHERE "130 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT] 
+AND "155 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
+AND "180 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT] 
+AND "205 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
 ```
 ## Features
 - Find all the nutiriton of famous sandwich restaurants
 - Discover the value of how many calories certain exercises burn per min depending on weight
 
 ## Status
-Project is: _in progress_
+Project is: _finished_
 
 ## Inspiration
 Hunger, and Rutgers Data Science Bootcamp
