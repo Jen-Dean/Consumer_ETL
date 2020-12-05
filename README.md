@@ -218,7 +218,7 @@ AND "205 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
 - Discover the value of how many calories certain exercises burn per min depending on weight
 
 ## Status
-Project is: _finsihed_
+Project is: _finished_
 
 ## Inspiration
 Hunger, and Rutgers Data Science Bootcamp
