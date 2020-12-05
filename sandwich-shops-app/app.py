@@ -1,10 +1,7 @@
 from flask import Flask, render_template
-
 from config import postgres_pwd
 import sqlalchemy
-
 from sqlalchemy import create_engine, func
-
 from flask import Flask, jsonify
 
 
@@ -16,7 +13,6 @@ rds_connection_string = f"postgres:{postgres_pwd}@localhost:5432/programming_db"
 engine = create_engine(f'postgresql://{rds_connection_string}')
 
 #################################################
-
 
 #################################################
 # Flask Setup
