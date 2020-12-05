@@ -134,17 +134,26 @@ Here are some example queries you can run when looking for a specific sandwich n
 
 #### Based on Restaurant:
 
-SELECT sandwich_name FROM sandwiches
-WHERE restaurant_name = "Jimmy Johns"
-
-SELECT sandwich_name FROM sandwiches
-WHERE restaurant_name = "Quiznos"
-
-SELECT sandwich_name FROM sandwiches
-WHERE restaurant_name = "Subway"
-
-SELECT sandwich_name FROM sandwiches
-WHERE restaurant_name = "Panera"
+```sql
+  SELECT sandwich_name 
+  FROM sandwiches
+  WHERE restaurant_name = "Jimmy Johns"
+```
+```sql
+  SELECT sandwich_name 
+  FROM sandwiches
+  WHERE restaurant_name = "Quiznos"
+```
+```sql
+  SELECT sandwich_name 
+  FROM sandwiches
+  WHERE restaurant_name = "Subway"
+```
+```sql
+  SELECT sandwich_name 
+  FROM sandwiches
+  WHERE restaurant_name = "Panera"
+```
 
 #### Based on Nutrition Amounts:
 
@@ -153,43 +162,58 @@ WHERE restaurant_name = "Panera"
   FROM sandwiches 
   WHERE calories(cal) < 500
 ```
-
-
-- SELECT sandwich_name, restaurant_name, calories FROM sandwiches WHERE calories(cal) < 500
-
-SELECT sandwich_name, restaurant_name, calories, protein FROM sandwiches
-WHERE calories(cal) < 500 AND
-WHERE protein(grams) > 10
-
-SELECT sandwich_name, restaurant_name, calories, protein FROM sandwiches
-WHERE calories(cal) < 500 AND
-WHERE protein(grams) > 10 AND
-WHERE total_carbohydrates(mg)
-
+```sql
+  SELECT sandwich_name, restaurant_name, calories 
+  FROM sandwiches WHERE calories(cal) < 500
+```
+```sql
+  SELECT sandwich_name, restaurant_name, calories, protein 
+  FROM sandwiches
+  WHERE calories(cal) < 500 AND
+  WHERE protein(grams) > 10
+```
+```sql
+  SELECT sandwich_name, restaurant_name, calories, protein 
+  FROM sandwiches
+  WHERE calories(cal) < 500 AND
+  WHERE protein(grams) > 10 AND
+  WHERE total_carbohydrates(mg)
+```
 #### Based on Calories Burned per Min:
 
-- SELECT exercise_type, cal_per_min_130lbs FROM exercises WHERE cal_per_min_130lbs >= 10
-
-- SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises WHERE cal_per_min_130lbs >= 10 AND WHERE cal_per_min_155lbs >= 10 AND WHERE cal_per_min_180lbs >= 10 AND WHERE cal_per_min_205lbs >= 10
-
+```sql
+SELECT exercise_type, cal_per_min_130lbs 
+FROM exercises
+WHERE cal_per_min_130lbs >= 10
+```
+```sql
+SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs
+FROM exercises
+WHERE cal_per_min_130lbs >= 10
+AND WHERE cal_per_min_155lbs >= 10
+AND WHERE cal_per_min_180lbs >= 10
+AND WHERE cal_per_min_205lbs >= 10
+```
 #### Situationally Based:
 
 "I ate a 430 calorie sandwich, I only have a 30 min lunch break to work off the sandwich - What are my exercise options?"
 
+```sql
 SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
 WHERE cal_per_min_130lbs >= 430/30 AND
 WHERE cal_per_min_155lbs >= 430/30 AND
 WHERE cal_per_min_180lbs >= 430/30 AND
 WHERE cal_per_min_205lbs >= 430/30
-
+```
 Here is the same example with the values removed so you can type in your own values:
 
+```sql
 SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
 WHERE cal_per_min_130lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
 WHERE cal_per_min_155lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
 WHERE cal_per_min_180lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
 WHERE cal_per_min_205lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]**
-
+```
 ## Features
 - Find all the nutiriton of famous sandwich restaurants
 - Discover the value of how many calories certain exercises burn per min depending on weight
