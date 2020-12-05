@@ -105,6 +105,9 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ![Exercise Examples](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/Exercise_screenshot.png)
   
 
+### Subway 
+- Because of the large amount of information, the focus was to extract specifically the Subway type: 6" data only. 
+
 ## Code Examples
 *coming soon*
 
