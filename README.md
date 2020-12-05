@@ -185,37 +185,39 @@ Here are some example queries you can run when looking for a specific sandwich n
 #### Based on Calories Burned per Min:
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs 
+SELECT exercise_type, "130 lbs"
 FROM exercises
-WHERE cal_per_min_130lbs >= 10
+WHERE "130 lbs" >= 10
 ```
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
 FROM exercises
-WHERE cal_per_min_130lbs >= 10
-AND cal_per_min_155lbs >= 10
-AND cal_per_min_180lbs >= 10
-AND cal_per_min_205lbs >= 10
+WHERE "130 lbs" >= 10
+AND "155 lbs" >= 10
+AND "180 lbs" >= 10
+AND "205 lbs" >= 10
 ```
 #### Situationally Based:
 
 "I ate a 430 calorie sandwich, I only have a 30 min lunch break to work off the sandwich - What are my exercise options?"
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
-WHERE cal_per_min_130lbs >= 430/30 AND
-WHERE cal_per_min_155lbs >= 430/30 AND
-WHERE cal_per_min_180lbs >= 430/30 AND
-WHERE cal_per_min_205lbs >= 430/30
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
+FROM exercises
+WHERE "130 lbs" >= 430/30
+AND "155 lbs" >= 430/30
+AND "180 lbs" >= 430/30
+AND "205 lbs" >= 430/30
 ```
 Here is the same example with the values removed so you can type in your own values:
 
 ```sql
-SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
-WHERE cal_per_min_130lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_155lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_180lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
-WHERE cal_per_min_205lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]**
+SELECT exercise, "130 lbs", "155 lbs", "180 lbs", "205 lbs"
+FROM exercises
+WHERE "130 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT] 
+AND "155 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
+AND "180 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT] 
+AND "205 lbs" >= [ENTER YOUR SANDWICH CAL]/[ENTER MINS WORKOUT]
 ```
 ## Features
 - Find all the nutiriton of famous sandwich restaurants
