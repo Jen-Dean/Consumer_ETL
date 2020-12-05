@@ -105,8 +105,92 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ![Exercise Examples](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/Exercise_screenshot.png)
   
 
+<<<<<<< HEAD:Panera/README.md
 ## Code Examples
 *coming soon*
+=======
+### Subway 
+- During the extraction process, because of the large amounts of information and time constraints, ended up focusing only on extracting the Subway sandwich length: 6" data only, using Beautiful soup etc. 
+- The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
+- During the transformation process, the dataframe was cleaned up. More columns were added to the dataframe. Then, the final table was exported to csv for the loading process.
+
+### Panera
+- Extracted data Panera website and tranformed the data as necessary.
+
+### Quiznos
+- Extracted data from the PDF through Tabula into CSV (Used tabula to pull the data from 21 sanwiches). Created a document with sandwich description. Viewed the CSV's in Excel to reformat the data. Later, rows were shifted to match data and delete blank rows. Lastly, loaded the multiple csvs to merge in Jupyter Notebook (merged 3 csv files into one dataframe).
+- During the tranformation process, firstly, cleaned up the dataframe. Renamed columns, and dropped any rows containing "Half Salad" or "Full Salad". Then, the index was reset. Exported final table as CSV to lead with group. Lastly, combined all the Restaurant csvs for final load.
+
+### Loading 
+- In progress: 
+
+
+
+## Example Queries
+# Example Queries
+
+### Finding Sandwich options
+
+Here are some example queries you can run when looking for a specific sandwich name:
+
+#### Based on Restaurant:
+
+SELECT sandwich_name FROM sandwiches
+WHERE restaurant_name = "Jimmy Johns"
+
+SELECT sandwich_name FROM sandwiches
+WHERE restaurant_name = "Quiznos"
+
+SELECT sandwich_name FROM sandwiches
+WHERE restaurant_name = "Subway"
+
+SELECT sandwich_name FROM sandwiches
+WHERE restaurant_name = "Panera"
+
+#### Based on Nutrition Amounts:
+
+```sql
+  SELECT sandwich_name, restaurant_name, calories 
+  FROM sandwiches 
+  WHERE calories(cal) < 500
+```
+
+
+- SELECT sandwich_name, restaurant_name, calories FROM sandwiches WHERE calories(cal) < 500
+
+SELECT sandwich_name, restaurant_name, calories, protein FROM sandwiches
+WHERE calories(cal) < 500 AND
+WHERE protein(grams) > 10
+
+SELECT sandwich_name, restaurant_name, calories, protein FROM sandwiches
+WHERE calories(cal) < 500 AND
+WHERE protein(grams) > 10 AND
+WHERE total_carbohydrates(mg)
+
+#### Based on Calories Burned per Min:
+
+- SELECT exercise_type, cal_per_min_130lbs FROM exercises WHERE cal_per_min_130lbs >= 10
+
+- SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises WHERE cal_per_min_130lbs >= 10 AND WHERE cal_per_min_155lbs >= 10 AND WHERE cal_per_min_180lbs >= 10 AND WHERE cal_per_min_205lbs >= 10
+
+#### Situationally Based:
+
+"I ate a 430 calorie sandwich, I only have a 30 min lunch break to work off the sandwich - What are my exercise options?"
+
+SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
+WHERE cal_per_min_130lbs >= 430/30 AND
+WHERE cal_per_min_155lbs >= 430/30 AND
+WHERE cal_per_min_180lbs >= 430/30 AND
+WHERE cal_per_min_205lbs >= 430/30
+
+Here is the same example with the values removed so you can type in your own values:
+
+SELECT exercise_type, cal_per_min_130lbs, cal_per_min_155lbs, cal_per_min_180lbs, cal_per_min_205lbs FROM exercises
+WHERE cal_per_min_130lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
+WHERE cal_per_min_155lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
+WHERE cal_per_min_180lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]** AND
+WHERE cal_per_min_205lbs >= **[ENTER YOUR SANDWICH CAL]**/**[ENTER MINS WORKOUT]**
+>>>>>>> fb87d97b202703c471ad6bca376621dafe3006a3:README.md
 
 ## Features
 *coming soon*
