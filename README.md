@@ -121,7 +121,8 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - During the tranformation process, firstly, cleaned up the dataframe. Renamed columns, and dropped any rows containing "Half Salad" or "Full Salad". Then, the index was reset. Exported final table as CSV to lead with group. Lastly, combined all the Restaurant csvs for final load.
 
 ### Loading 
-- In progress: 
+- Combined all the collective restaurant nutrition csvs into Postgres. Created a collective jupyter notebook for the loading process. Loaded csv to dataframe and made the necessary changes to the dataframe such as renaming columns.
+- Loaded the collective restaurant nutrition dataframe to database. 
 
 
 
