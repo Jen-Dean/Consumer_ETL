@@ -105,8 +105,8 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 ![Exercise Examples](https://github.com/Jen-Dean/for-now/blob/main/Exercise_Scrape/Exercise_screenshot.png)
   
 ### Blimpie
-- We initially planned on extracting data from the Blimpie, but because of unforseeable reasons, we weren't able to collect that data.
-- So, in the end, we just focused on extracting data from Panera, Quiznos, Subway and Jimmy Johns. 
+- We initially planned on scraping data from the Blimpie website, but because of unforseeable reasons, we weren't able to collect that data.
+- Therefore, we just focused on extracting data from Panera, Quiznos, Subway and Jimmy Johns. 
 
 ### Subway 
 - During the extraction process, because of the large amounts of information, the focus was to extract specifically the Subway sandwich type: 6" data only, using Beautiful soup etc. The intial subway dataframe, before transformation, just had the following nutrient values: calories, total_fat, trans_fat, cholestrol, total_carbohydrates, dietary fiber, protein. 
@@ -120,7 +120,7 @@ How do Sandwhiches Shop items and nutritional information relate to one another?
 - During the tranformation process, firstly, cleaned up the dataframe. Renamed columns, and dropped any rows containing "Half Salad" or "Full Salad". Then, the index was reset. Exported final table as CSV to lead with group. Lastly, combined all the Restaurant csvs for final load.
 
 ### Loading 
-- In progress 
+- In progress: 
 
 
 
