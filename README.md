@@ -176,7 +176,7 @@ Here are some example queries you can run when looking for a specific sandwich n
   AND protein_grams_ > 10
   AND total_carbohydrates_mg_
 ```
-### Finding Sandwich options
+### Finding Exercise options
 #### Based on Calories Burned per Min:
 
 ```sql
