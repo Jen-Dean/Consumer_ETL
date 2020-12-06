@@ -22,11 +22,11 @@ app = Flask(__name__)
 #################################################
 # Routes
 #################################################
-@app.route("/")
-def home():
-    return render_template("index.html", text="Sandwich shops")
+# @app.route("/")
+# def home():
+#     return render_template("index.html", text="Sandwich shops")
 
-@app.route("/api")
+@app.route("/")
 def api():
     results = engine.execute("select * from  sandwiches")
     results_lst = []
@@ -35,7 +35,7 @@ def api():
             'Restaurant' : result[1],
             'Sandwich_Name' : result[2],
             'Bread_Type' : result[3],
-            'Sandwich_Lenghth' : result[4],
+            'Sandwich_Length' : result[4],
             'Sandwich_Description' : result[5],
             'Calories' : result[6],
             'Calories_From_Fat' : result[7],
@@ -50,7 +50,8 @@ def api():
             'Sugars' : result[16]
         }
         results_lst.append(results_dict)
-    return jsonify(results_lst)
+    # return jsonify(results_lst)
+    return render_template("index.html",  sandwiches = results_lst)
 
 if __name__ == "__main__":
     app.run(debug=True)

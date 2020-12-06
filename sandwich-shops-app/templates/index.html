@@ -4,16 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandwich Shops</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+   
 </head>
 <body>
     <div class="container">
 
         <div class="jumbotron text-center">
           <!-- Render our data -->
-          <h1>{{ text }}</h1>
+          <h1>Sandwich Lovers</h1>
         </div>
-    
+        <div >      
+            <table class="veena">
+                <thead>
+                    <tr>
+                        <td>Restaurant</td>
+                        <td>Sandwich</td>
+                        <td>Length</td>
+                        <td>Calories</td>
+                        <td>Calories from fat</td>
+                        <td>Total Fat</td>
+                        <td>Saturated Fat</td>
+                        <td>Trans Fat</td>
+                        <td>Protein</td>
+                        <td>Cholesterol</td>
+                        <td>Sodium</td>
+                        <td>Total Carbohydrates</td>
+                        <td>Dietary Fiber</td>
+                        <td>Sugars</td>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sandwich in sandwiches %}
+                        <tr>
+                            <td>{{sandwich.Restaurant}}</td>
+                            <td>{{sandwich.Sandwich_Name}}</td>
+                            <td>{{sandwich.Sandwich_Length}}</td>
+                            <td>{{sandwich.Calories}}</td>
+                            <td>{{sandwich.Calories_From_Fat}}</td>
+                            <td>{{sandwich.Calories_From_Fat}}</td>
+                            <td>{{sandwich.Total_Fat}}</td>
+                            <td>{{sandwich.Saturated_Fat}}</td>
+                            <td>{{sandwich.Trans_Fat}}</td>
+                            <td>{{sandwich.Protein}}</td>
+                            <td>{{sandwich.Cholesterol}}</td>
+                            <td>{{sandwich.Sodium}}</td>
+                            <td>{{sandwich.Total_Carbs}}</td>
+                            <td>{{sandwich.Dietary_Fiber}}</td>
+                            <td>{{sandwich.Sugars}}</td> 
+                        </tr>
+                    {% endfor %}  
+                </tbody>
+            </table>    
+        </div>
       </div>
 </body>
 </html>
