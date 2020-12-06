@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Shops</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+            background-color: darkslategray;
+        }
+        h1{
+            text-align: center;
+            margin: 50px 250px;
+            padding: 50px;
+            border:rgb(44, 44, 44) solid 3px;
+            background-color:  rgba(1, 26, 31, 0.945);
+            color: white;
+        }
+        table {
+            background-color: rgba(255, 255, 242, 0.945);
+            max-width: 500px;
+            margin: auto;
+        }
+        td {
+            text-align: center;
+            padding: 20px;
+            box-shadow: 2px 2px rgba(3, 3, 3, 0.116);
+        }
+        thead {
+            background-color: rgba(172, 172, 172, 0.925);
+            color: rgb(44, 44, 44);
+        }
+        .menu-button{
+            background-color: rgba(1, 26, 31, 0.945);
+            width : 150px;
+            height : 20px;
+            padding: 10px;
+            text-align: center;
+            float: left;
+            margin: 10px;
+            box-shadow: 1px 1px 2px 2px rgb(168, 168, 168);
+        }
+        .menu{
+            background-color: steelblue;
+            max-width: 1000px;
+            margin: auto;
+        }
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited{
+            color: white;
+            text-decoration: none;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+          <!-- Render our data -->
+          <h1>Jimmy Johns Lovers</h1>
+          <div class="menu">
+            <div class="menu-button">
+                <a href="/panera" role="button">Panera</a>
+            </div>
+            <div class="menu-button">
+                <a href="/jimmyjohns" role="button">Jimmy Johns</a>
+            </div>
+            <div class="menu-button">
+                <a href="/subway" role="button">Subway</a>
+            </div>
+            <div class="menu-button">
+                <a href="/quiznos" role="button">Quiznos</a>
+            </div>
+            <div class="menu-button">
+                <a href="/" role="button">Home</a>
+            </div>
+        </div>
+        
+        <div >      
+            <table>
+                <thead>
+                    <tr>
+                        <td>Restaurant</td>
+                        <td>Sandwich</td>
+                        <td>Length</td>
+                        <td>Calories</td>
+                        <td>Calories from fat</td>
+                        <td>Total Fat</td>
+                        <td>Saturated Fat</td>
+                        <td>Trans Fat</td>
+                        <td>Protein</td>
+                        <td>Cholesterol</td>
+                        <td>Sodium</td>
+                        <td>Total Carbohydrates</td>
+                        <td>Dietary Fiber</td>
+                        <td>Sugars</td>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sandwich in sandwiches %}
+                        <tr>
+                            <td>{{sandwich.Restaurant}}</td>
+                            <td>{{sandwich.Sandwich_Name}}</td>
+                            <td>{{sandwich.Sandwich_Length}}</td>
+                            <td>{{sandwich.Calories}}</td>
+                            <td>{{sandwich.Calories_From_Fat}}</td>
+                            <td>{{sandwich.Total_Fat}}g</td>
+                            <td>{{sandwich.Saturated_Fat}}g</td>
+                            <td>{{sandwich.Trans_Fat}}g</td>
+                            <td>{{sandwich.Protein}}g</td>
+                            <td>{{sandwich.Cholesterol}}mg</td>
+                            <td>{{sandwich.Sodium}}mg</td>
+                            <td>{{sandwich.Total_Carbs}}g</td>
+                            <td>{{sandwich.Dietary_Fiber}}g</td>
+                            <td>{{sandwich.Sugars}}g</td> 
+                        </tr>
+                    {% endfor %}  
+                </tbody>
+            </table>    
+        </div>
+      </div>
+</body>
+</html>

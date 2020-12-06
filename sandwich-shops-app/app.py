@@ -22,13 +22,8 @@ app = Flask(__name__)
 #################################################
 # Routes
 #################################################
-# @app.route("/")
-# def home():
-#     return render_template("index.html", text="Sandwich shops")
-
-@app.route("/")
-def api():
-    results = engine.execute("select * from  sandwiches")
+def retrieve_data(post_query):
+    results = engine.execute(post_query)
     results_lst = []
     for result in results:
         results_dict ={
@@ -50,8 +45,37 @@ def api():
             'Sugars' : result[16]
         }
         results_lst.append(results_dict)
-    # return jsonify(results_lst)
-    return render_template("index.html",  sandwiches = results_lst)
+    return results_lst
+@app.route("/panera")
+def panera():
+    query = "SELECT * FROM  sandwiches WHERE restaurant_name = 'Panera'"
+    results = retrieve_data (query)
+    return render_template("panera.html",  sandwiches = results)
+
+@app.route("/")
+def home():
+    query = "SELECT * FROM  sandwiches"
+    results = retrieve_data (query)
+    return render_template("index.html",  sandwiches = results)
+
+
+@app.route("/jimmyjohns")
+def jimmyjohns():
+    query = "SELECT * FROM  sandwiches WHERE restaurant_name = 'Jimmy Johns'"
+    results = retrieve_data (query)
+    return render_template("jimmyjohns.html",  sandwiches = results)
+
+@app.route("/subway")
+def subway():
+    query = "SELECT * FROM  sandwiches WHERE restaurant_name = 'Subway'"
+    results = retrieve_data (query)
+    return render_template("subway.html",  sandwiches = results)
+
+@app.route("/quiznos")
+def quiznos():
+    query = "SELECT * FROM  sandwiches WHERE restaurant_name = 'Quiznos'"
+    results = retrieve_data (query)
+    return render_template("quiznos.html",  sandwiches = results)      
 
 if __name__ == "__main__":
     app.run(debug=True)
